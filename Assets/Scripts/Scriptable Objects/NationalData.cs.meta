@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f7befbde4775efd428e98de46046d774
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+  - ActivityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+  - DepositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

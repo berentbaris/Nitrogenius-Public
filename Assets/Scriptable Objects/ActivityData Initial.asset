@@ -1,0 +1,4812 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4884685b5e991ea44a936001e8b2d6fe, type: 3}
+  m_Name: ActivityData Initial
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  sectorList: {fileID: 0}
+  sourceList: {fileID: 0}
+  _ActivityItems:
+  - _ID: 1
+    _Name: Oil&Gas Winning
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 50
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 8771
+    _Unit: Meuro
+    _Production_Value: 8771
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 859
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 26
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.12244898
+    _Fuel_Total: 1074
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.114012085
+    _Electricity_Total: 1000
+    _Fac_Cost_EM: 2000
+    _Fac_Cost_Build: 5000
+    _Raw_Mats_Type_ID: 53
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.182
+    _Raw_Mats_Total: 1596.322
+    _Raw_Mats_Unit: mlnkg oil
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.239
+    _Other_Mats_Total: 2100
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 1.1401209
+    _Salary_Per_Job: 50000
+    _Jobs_Total: 10000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 2
+    _Name: Coal E-generation
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 35
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 921
+    _Unit: Meuro
+    _Production_Value: 921
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 15984
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0.006
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 12
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 8.125646
+    _Fuel_Total: 7484
+    _Fuel_Unit: Mkg
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.10857357
+    _Electricity_Total: 100
+    _Fac_Cost_EM: 800
+    _Fac_Cost_Build: 1200
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 2.280045
+    _Salary_Per_Job: 42000
+    _Jobs_Total: 2100
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 3
+    _Name: Gas E-Generation
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 41
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 2511
+    _Unit: Meuro
+    _Production_Value: 2511
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 31968
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0.005
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 26
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 4.3481283
+    _Fuel_Total: 10918
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.039825317
+    _Electricity_Total: 100
+    _Fac_Cost_EM: 800
+    _Fac_Cost_Build: 1300
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 0.99563295
+    _Salary_Per_Job: 42000
+    _Jobs_Total: 2500
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 4
+    _Name: H2 E-Generation
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 42
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 10
+    _Unit: Meuro
+    _Production_Value: 10
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 0
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.5
+    _Other_Mats_Total: 5
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 5
+    _Salary_Per_Job: 42000
+    _Jobs_Total: 50
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 5
+    _Name: Renewables
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 47
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 100
+    _Unit: Meuro
+    _Production_Value: 100
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 0
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 49
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.1
+    _Raw_Mats_Total: 10
+    _Raw_Mats_Unit: Meuro
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.01
+    _Other_Mats_Total: 2
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 5
+    _Salary_Per_Job: 42000
+    _Jobs_Total: 500
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 6
+    _Name: Distribution
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 39
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 12370
+    _Unit: Meuro
+    _Production_Value: 12370
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 0
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 24
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.08430073
+    _Fuel_Total: 1042.8
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.13474534
+    _Electricity_Total: 1666.8
+    _Fac_Cost_EM: 2000
+    _Fac_Cost_Build: 5000
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.22103
+    _Other_Mats_Total: 4500
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 2.0210185
+    _Salary_Per_Job: 42000
+    _Jobs_Total: 25000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 7
+    _Name: Water Distribution
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 43
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 1465
+    _Unit: Meuro
+    _Production_Value: 1465
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 0
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.05
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.34129694
+    _Electricity_Total: 500
+    _Fac_Cost_EM: 800
+    _Fac_Cost_Build: 1500
+    _Raw_Mats_Type_ID: 63
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.027
+    _Raw_Mats_Total: 39.555
+    _Raw_Mats_Unit: mln m3
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 4.982935
+    _Salary_Per_Job: 35000
+    _Jobs_Total: 7300
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 8
+    _Name: Refineries
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 46
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 7519
+    _Unit: Meuro
+    _Production_Value: 7519
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 15020
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0.00113
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 24
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.13868698
+    _Fuel_Total: 1042.8
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.01329948
+    _Electricity_Total: 100
+    _Fac_Cost_EM: 500
+    _Fac_Cost_Build: 1200
+    _Raw_Mats_Type_ID: 53
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 7.318
+    _Raw_Mats_Total: 55024.043
+    _Raw_Mats_Unit: mln kg
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.003
+    _Other_Mats_Total: 20
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0.86220527
+    _Salary_Per_Job: 42000
+    _Jobs_Total: 6483
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 9
+    _Name: Steel Industry
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 21
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 11870
+    _Unit: kton fe
+    _Production_Value: 2616
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 6380
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0.3
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 12
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.27262005
+    _Fuel_Total: 3236
+    _Fuel_Unit: Mkg
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.1656866
+    _Electricity_Total: 1966.7
+    _Fac_Cost_EM: 500
+    _Fac_Cost_Build: 1500
+    _Raw_Mats_Type_ID: 22
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 11
+    _Raw_Mats_Total: 130570
+    _Raw_Mats_Unit: mln kg
+    _Other_Mats_Type_ID: 24
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.035
+    _Other_Mats_Total: 417.12
+    _Other_Mats_Unit: Mm3
+    _Jobs_Per_Unit: 1.3135636
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 15592
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 10
+    _Name: Aluminium Industry
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 2
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 1900
+    _Unit: kton al
+    _Production_Value: 2660
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 2000
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 3.6842105
+    _Electricity_Total: 7000
+    _Fac_Cost_EM: 2000
+    _Fac_Cost_Build: 3000
+    _Raw_Mats_Type_ID: 4
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 2.381
+    _Raw_Mats_Total: 4523.9
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 2.1052632
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 4000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 11
+    _Name: Zinc Industry
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 67
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 300
+    _Unit: kton Zn
+    _Production_Value: 267
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 926
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 1.6666666
+    _Electricity_Total: 500
+    _Fac_Cost_EM: 50
+    _Fac_Cost_Build: 300
+    _Raw_Mats_Type_ID: 68
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.98
+    _Raw_Mats_Total: 294
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 3.3333333
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 1000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 12
+    _Name: Paper Industry
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 54
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 1959
+    _Unit: kton Pap.
+    _Production_Value: 4759
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 470
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 24
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.014497193
+    _Fuel_Total: 28.4
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.04257274
+    _Electricity_Total: 83.4
+    _Fac_Cost_EM: 100
+    _Fac_Cost_Build: 300
+    _Raw_Mats_Type_ID: 66
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.003
+    _Raw_Mats_Total: 5.877
+    _Raw_Mats_Unit: mln m3
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 12.811639
+    _Salary_Per_Job: 38000
+    _Jobs_Total: 25098
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 13
+    _Name: Chemical Industry
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 36
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 26060
+    _Unit: Meuro
+    _Production_Value: 26060
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 5980
+    _Quotum_NH3: 2
+    _Quotum_N2O: 5.7
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 24
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.15061134
+    _Fuel_Total: 3925
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.06285385
+    _Electricity_Total: 1638
+    _Fac_Cost_EM: 3000
+    _Fac_Cost_Build: 10000
+    _Raw_Mats_Type_ID: 49
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.307
+    _Raw_Mats_Total: 8000.42
+    _Raw_Mats_Unit: Meuro
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.269
+    _Other_Mats_Total: 7000
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 2.6260478
+    _Salary_Per_Job: 39000
+    _Jobs_Total: 68436
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 14
+    _Name: Fertiliser Industry
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 40
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 1230
+    _Unit: Meuro
+    _Production_Value: 1230
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 3000
+    _Quotum_NH3: 2
+    _Quotum_N2O: 28
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 24
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 2.6772358
+    _Fuel_Total: 3293
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.25928456
+    _Electricity_Total: 318.92
+    _Fac_Cost_EM: 100
+    _Fac_Cost_Build: 500
+    _Raw_Mats_Type_ID: 49
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.081
+    _Raw_Mats_Total: 99.63
+    _Raw_Mats_Unit: Meuro
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 2.1439025
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 2637
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 15
+    _Name: Building_materials
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 34
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 3887
+    _Unit: Meuro
+    _Production_Value: 3887
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 543
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.05
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 24
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.19511192
+    _Fuel_Total: 758.4
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.27544636
+    _Electricity_Total: 1070.66
+    _Fac_Cost_EM: 500
+    _Fac_Cost_Build: 1500
+    _Raw_Mats_Type_ID: 49
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.154
+    _Raw_Mats_Total: 598.598
+    _Raw_Mats_Unit: Meuro
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 6.706972
+    _Salary_Per_Job: 32000
+    _Jobs_Total: 26070
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 16
+    _Name: Other Industry
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 45
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 87221
+    _Unit: Meuro
+    _Production_Value: 87221
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 53000
+    _Quotum_NH3: 1.5
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.03
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 24
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.01969931
+    _Fuel_Total: 1718.2
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.2613526
+    _Electricity_Total: 22796
+    _Fac_Cost_EM: 15000
+    _Fac_Cost_Build: 20000
+    _Raw_Mats_Type_ID: 49
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.344
+    _Raw_Mats_Total: 30004.023
+    _Raw_Mats_Unit: Meuro
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 5.3916516
+    _Salary_Per_Job: 29000
+    _Jobs_Total: 470267
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 17
+    _Name: Waste water treatment
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 52
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 50370
+    _Unit: N-exit
+    _Production_Value: 708
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 256
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 25
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.002977963
+    _Fuel_Total: 150
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.009926544
+    _Electricity_Total: 500
+    _Fac_Cost_EM: 100
+    _Fac_Cost_Build: 1000
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.002
+    _Other_Mats_Total: 100
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0.03633115
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 1830
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 18
+    _Name: Waste Incinerators
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 62
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 4800
+    _Unit: kton
+    _Production_Value: 384
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 1640
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0.09
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: -0.0625
+    _Electricity_Total: -300
+    _Fac_Cost_EM: 550
+    _Fac_Cost_Build: 1100
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 0.6875
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 3300
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 19
+    _Name: Industry diesel
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 17
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 254000
+    _Unit: Mtonkm
+    _Production_Value: 8687
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 95600
+    _Quotum_NH3: 0
+    _Quotum_N2O: 1.1
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 16
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.010082677
+    _Fuel_Total: 2561
+    _Fuel_Unit: Mliter
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 800
+    _Fac_Cost_Build: 300
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 0.48031497
+    _Salary_Per_Job: 28000
+    _Jobs_Total: 122000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 20
+    _Name: Transport over water (inland)
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 64
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 8800
+    _Unit: Mtonkm
+    _Production_Value: 1203
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 40800
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 16
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.09700757
+    _Fuel_Total: 853.667
+    _Fuel_Unit: Mliter
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 50
+    _Fac_Cost_Build: 100
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 1.5909091
+    _Salary_Per_Job: 28000
+    _Jobs_Total: 14000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 21
+    _Name: Transport over water (overseas)
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 11
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 60
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 397310
+    _Unit: kton
+    _Production_Value: 3183
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 12700
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 16
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 853.667
+    _Fuel_Unit: Mliter
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 0.03523697
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 14000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 22
+    _Name: Aviation (freight)
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 1
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 1181
+    _Unit: kton
+    _Production_Value: 1936
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 826
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 27
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.0084674
+    _Fuel_Total: 10
+    _Fuel_Unit: Mliter
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 500
+    _Fac_Cost_Build: 200
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 8.128704
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 9600
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 23
+    _Name: Aviation (passengers)
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 23
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 37000
+    _Unit: Flights
+    _Production_Value: 4518
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 1652
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 27
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.00081081083
+    _Fuel_Total: 30
+    _Fuel_Unit: Mliter
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 500
+    _Fac_Cost_Build: 2000
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 0.6054054
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 22400
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 24
+    _Name: Rail cargo transport
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 59
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 3521
+    _Unit: Mtonkm
+    _Production_Value: 124
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 1640
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 50
+    _Fac_Cost_Build: 100
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 1.7040614
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 6000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 25
+    _Name: Rail transport
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 58
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 14330
+    _Unit: Mrail-km
+    _Production_Value: 1280
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 500
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.09150035
+    _Electricity_Total: 1311.2
+    _Fac_Cost_EM: 500
+    _Fac_Cost_Build: 2000
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 1.1165388
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 16000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 26
+    _Name: Building Construction
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 37
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 46774
+    _Unit: MNfl
+    _Production_Value: 46774
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 5000
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.005
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 20
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.021379398
+    _Electricity_Total: 1000
+    _Fac_Cost_EM: 1000
+    _Fac_Cost_Build: 5000
+    _Raw_Mats_Type_ID: 49
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.363
+    _Raw_Mats_Total: 16978.963
+    _Raw_Mats_Unit: Meuro
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 8.573139
+    _Salary_Per_Job: 30000
+    _Jobs_Total: 401000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 27
+    _Name: Trade & Services
+    _Belonging_Sector_ID: 0
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 10
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 48
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 350000
+    _Unit: MNfl
+    _Production_Value: 350000
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 5000
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.001
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 20
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.028571429
+    _Electricity_Total: 10000
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 8.691428
+    _Salary_Per_Job: 32000
+    _Jobs_Total: 3042000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 28
+    _Name: Dairy_Farms
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 51
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 10470
+    _Unit: mln-l
+    _Production_Value: 4188
+    _Subsidy_Per_Unit: 0.05
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 9712
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 25
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.011513467
+    _Fuel_Total: 120.546
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 20
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.083838396
+    _Electricity_Total: 877.8
+    _Fac_Cost_EM: 20
+    _Fac_Cost_Build: 50
+    _Raw_Mats_Type_ID: 3
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.076
+    _Raw_Mats_Total: 795.72
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 30
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.00002507
+    _Other_Mats_Total: 0.2625
+    _Other_Mats_Unit: ton
+    _Jobs_Per_Unit: 6.585005
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 68945
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 29
+    _Name: Veal_Farms
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 61
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 506
+    _Unit: mln-cow
+    _Production_Value: 708
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 1643
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 25
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.119223915
+    _Fuel_Total: 60.3273
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 20
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.8673794
+    _Electricity_Total: 438.9
+    _Fac_Cost_EM: 3
+    _Fac_Cost_Build: 12
+    _Raw_Mats_Type_ID: 28
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 5.025
+    _Raw_Mats_Total: 2542.65
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 30
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.0001729
+    _Other_Mats_Total: 0.0875
+    _Other_Mats_Unit: ton
+    _Jobs_Per_Unit: 12.954545
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 6555
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 30
+    _Name: Chicken_Farms
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 11
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 768
+    _Unit: mln-chick
+    _Production_Value: 922
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 2137
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 25
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.0046875
+    _Fuel_Total: 3.6
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 20
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.07747396
+    _Electricity_Total: 59.5
+    _Fac_Cost_EM: 3
+    _Fac_Cost_Build: 14
+    _Raw_Mats_Type_ID: 28
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 2.045
+    _Raw_Mats_Total: 1570.56
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 31
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.00003255
+    _Other_Mats_Total: 0.025
+    _Other_Mats_Unit: ton
+    _Jobs_Per_Unit: 4.1302085
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 3172
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 31
+    _Name: Chicken_eggs
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 18
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 580
+    _Unit: mln-kg
+    _Production_Value: 116
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 269
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 25
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.0062068966
+    _Fuel_Total: 3.6
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 20
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.10258621
+    _Electricity_Total: 59.5
+    _Fac_Cost_EM: 4
+    _Fac_Cost_Build: 14
+    _Raw_Mats_Type_ID: 28
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 16.25
+    _Raw_Mats_Total: 9425
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 31
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.0000431
+    _Other_Mats_Total: 0.025
+    _Other_Mats_Unit: ton
+    _Jobs_Per_Unit: 3.1034484
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 1800
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 32
+    _Name: Pig_Farming
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 56
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 1711
+    _Unit: mln-pig
+    _Production_Value: 1797
+    _Subsidy_Per_Unit: 0.05
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 4166
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 25
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.0541204
+    _Fuel_Total: 92.6
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 20
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.18760958
+    _Electricity_Total: 321
+    _Fac_Cost_EM: 20
+    _Fac_Cost_Build: 70
+    _Raw_Mats_Type_ID: 28
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 3.663
+    _Raw_Mats_Total: 6267.393
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 30
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.00005845
+    _Other_Mats_Total: 0.1
+    _Other_Mats_Unit: ton
+    _Jobs_Per_Unit: 8.939801
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 15296
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 33
+    _Name: Other crops
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 38
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 4000
+    _Unit: Meuro
+    _Production_Value: 4000
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 9276
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 10
+    _Fac_Cost_Build: 20
+    _Raw_Mats_Type_ID: 3
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.008
+    _Raw_Mats_Total: 32
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 26.968
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 107872
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 34
+    _Name: Potatoes
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 57
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 900
+    _Unit: Meuro
+    _Production_Value: 900
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 2087
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 2
+    _Fac_Cost_Build: 4
+    _Raw_Mats_Type_ID: 3
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.017
+    _Raw_Mats_Total: 15.3
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 5.5555553
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 5000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 35
+    _Name: Beets
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 5
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 800
+    _Unit: Meuro
+    _Production_Value: 800
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 1855
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 2
+    _Fac_Cost_Build: 4
+    _Raw_Mats_Type_ID: 3
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.013
+    _Raw_Mats_Total: 10.4
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 3.75
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 3000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 36
+    _Name: Wheat_farm
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 65
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 400
+    _Unit: Meuro
+    _Production_Value: 400
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 928
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 2
+    _Fac_Cost_Build: 4
+    _Raw_Mats_Type_ID: 3
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.013
+    _Raw_Mats_Total: 5.2
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 8.6325
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 3453
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 37
+    _Name: Corn_farm
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 13
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 300
+    _Unit: Meuro
+    _Production_Value: 300
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 696
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 2
+    _Fac_Cost_Build: 4
+    _Raw_Mats_Type_ID: 3
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0.067
+    _Raw_Mats_Total: 20.1
+    _Raw_Mats_Unit: kton
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 6.6666665
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 2000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 38
+    _Name: Bio-farming
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 33
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 100
+    _Unit: Meuro
+    _Production_Value: 100
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 232
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 2
+    _Fac_Cost_Build: 4
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 12
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 1200
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 39
+    _Name: Horticulture
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 12
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 44
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 3100
+    _Unit: Meuro
+    _Production_Value: 3100
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 10300
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.19
+    _Fuel_Type_ID: 24
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 1.2080646
+    _Fuel_Total: 3745
+    _Fuel_Unit: Mm3
+    _Electricity_Type_ID: 19
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.38935483
+    _Electricity_Total: 1207
+    _Fac_Cost_EM: 60
+    _Fac_Cost_Build: 140
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 16.746452
+    _Salary_Per_Job: 24600
+    _Jobs_Total: 51914
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 40
+    _Name: Private transport petrol
+    _Belonging_Sector_ID: 2
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 13
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 14
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 73259
+    _Unit: Mkm
+    _Production_Value: 7000
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 70000
+    _Quotum_NH3: 2
+    _Quotum_N2O: 5
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0
+    _Tax_Per_Unit_Factor: 0
+    _Fuel_Type_ID: 55
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.024078952
+    _Fuel_Total: 1764
+    _Fuel_Unit: Mliter
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.09555
+    _Other_Mats_Total: 7000.031
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0
+    _Salary_Per_Job: 0
+    _Jobs_Total: 0
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 41
+    _Name: Private transport diesel
+    _Belonging_Sector_ID: 2
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 13
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 7
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 33190
+    _Unit: Mkm
+    _Production_Value: 2000
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 30000
+    _Quotum_NH3: 1
+    _Quotum_N2O: 1
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0
+    _Tax_Per_Unit_Factor: 0
+    _Fuel_Type_ID: 16
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.0257
+    _Fuel_Total: 853.667
+    _Fuel_Unit: Mliter
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.06026
+    _Other_Mats_Total: 1999.9952
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0
+    _Salary_Per_Job: 0
+    _Jobs_Total: 0
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 42
+    _Name: Private transport gas
+    _Belonging_Sector_ID: 2
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 13
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 9
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 11260
+    _Unit: Mkm
+    _Production_Value: 1500
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 4000
+    _Quotum_NH3: 1
+    _Quotum_N2O: 0.2
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0
+    _Tax_Per_Unit_Factor: 0
+    _Fuel_Type_ID: 29
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0.0571
+    _Fuel_Total: 643
+    _Fuel_Unit: Mliter
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.13322
+    _Other_Mats_Total: 1500.0293
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0
+    _Salary_Per_Job: 0
+    _Jobs_Total: 0
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 43
+    _Name: Gas Heating
+    _Belonging_Sector_ID: 2
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 14
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 10
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 7036
+    _Unit: Mm3
+    _Production_Value: 3000
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 61
+    _Quotum_NH3: 0.5
+    _Quotum_N2O: 0.0543456
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0
+    _Tax_Per_Unit_Factor: 0
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.42641
+    _Other_Mats_Total: 3000.1863
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0
+    _Salary_Per_Job: 0
+    _Jobs_Total: 0
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 44
+    _Name: Gas Cooking
+    _Belonging_Sector_ID: 2
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 14
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 6
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 3518
+    _Unit: Mm3
+    _Production_Value: 3000
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 3
+    _Quotum_NH3: 0.5
+    _Quotum_N2O: 0.0271728
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0
+    _Tax_Per_Unit_Factor: 0
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.85281
+    _Other_Mats_Total: 3000.1863
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0
+    _Salary_Per_Job: 0
+    _Jobs_Total: 0
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 45
+    _Name: Domus-Elec
+    _Belonging_Sector_ID: 2
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 14
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 8
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 31669
+    _Unit: MkWh
+    _Production_Value: 7000
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 3
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0
+    _Tax_Per_Unit_Factor: 0
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0.364
+    _Other_Mats_Total: 6999.9556
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0
+    _Salary_Per_Job: 0
+    _Jobs_Total: 0
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 46
+    _Name: Private transport ships
+    _Belonging_Sector_ID: 2
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 13
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 15
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 100
+    _Unit: Ship
+    _Production_Value: 500
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 4000
+    _Quotum_NH3: 1
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0
+    _Tax_Per_Unit_Factor: 0
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 0
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0
+    _Electricity_Total: 0
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 49
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 5
+    _Other_Mats_Total: 500
+    _Other_Mats_Unit: Meuro
+    _Jobs_Per_Unit: 0
+    _Salary_Per_Job: 0
+    _Jobs_Total: 0
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0
+  - _ID: 47
+    _Name: Administration
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 0}
+    _Belonging_Emission_Sector_ID: 14
+    _Belonging_Emission_Sector: {fileID: 0}
+    _Produced_Product_ID: 32
+    _Produced_Product:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Product_Volume: 92286
+    _Unit: Meuro
+    _Production_Value: 92286
+    _Subsidy_Per_Unit: 0
+    _Fixed_Subsidy: 0
+    _Fixed_Tax: 0
+    _Quotum_NOX: 1000
+    _Quotum_NH3: 0
+    _Quotum_N2O: 0
+    _Quotum_N_Total: 0
+    _Quotum_PM: 0
+    _Quotum_VOC: 0
+    _Quotum_SO2: 0
+    _Eco_Tax: 0
+    _Budget_Factor: 0.1
+    _Tax_Per_Unit_Factor: 0.1
+    _Fuel_Type_ID: 0
+    _Fuel_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Fuel_Per_Unit: 0
+    _Fuel_Total: 0
+    _Fuel_Unit: 0
+    _Electricity_Type_ID: 20
+    _Electricity_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Electricity_Per_Unit: 0.1083588
+    _Electricity_Total: 10000
+    _Fac_Cost_EM: 0
+    _Fac_Cost_Build: 0
+    _Raw_Mats_Type_ID: 0
+    _Raw_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Raw_Mats_Per_Unit: 0
+    _Raw_Mats_Total: 0
+    _Raw_Mats_Unit: 0
+    _Other_Mats_Type_ID: 0
+    _Other_Mats_Type:
+      _ID: 0
+      _Name: 
+      _Unit: 
+      _Emission_N2O: 0
+      _Emission_NH3: 0
+      _Emission_NO3: 0
+      _Emission_NOx: 0
+      _Price_Per_Unit: 0
+    _Other_Mats_Per_Unit: 0
+    _Other_Mats_Total: 0
+    _Other_Mats_Unit: 0
+    _Jobs_Per_Unit: 21.270832
+    _Salary_Per_Job: 41000
+    _Jobs_Total: 1963000
+    _Tax_Per_Unit: 0
+    _Fuel_Cost: 0
+    _Electricity_Cost: 0
+    _Facility_Cost: 0
+    _Raw_Mats_Cost: 0
+    _Other_Mats_Cost: 0
+    _Personnel_Cost: 0
+    _Revenue: 0
+    _Costs: 0
+    _Saldo: 0
+    _Budget: 0
+    _N2O_Emissions: 0
+    _NH3_Emissions: 0
+    _Nox_Emissions: 0

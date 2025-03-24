@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c131050565cf9e44b443ef0978765d4, type: 3}
+  m_Name: AIData
+  m_EditorClassIdentifier: 
+  _AIItems:
+  - _ID: 1
+    _Role_ID: 3
+    _Year: 2022
+    _Action_ID: 242
+  - _ID: 2
+    _Role_ID: 3
+    _Year: 2022
+    _Action_ID: 172
+  - _ID: 3
+    _Role_ID: 0
+    _Year: 2022
+    _Action_ID: 115
+  - _ID: 4
+    _Role_ID: 1
+    _Year: 2022
+    _Action_ID: 63
+  - _ID: 5
+    _Role_ID: 2
+    _Year: 2022
+    _Action_ID: 76
+  - _ID: 6
+    _Role_ID: 2
+    _Year: 2022
+    _Action_ID: 82
+  - _ID: 7
+    _Role_ID: 1
+    _Year: 2023
+    _Action_ID: 16
+  - _ID: 8
+    _Role_ID: 2
+    _Year: 2023
+    _Action_ID: 196
+  - _ID: 9
+    _Role_ID: 2
+    _Year: 2023
+    _Action_ID: 73
+  - _ID: 10
+    _Role_ID: 0
+    _Year: 2023
+    _Action_ID: 210
+  - _ID: 11
+    _Role_ID: 0
+    _Year: 2023
+    _Action_ID: 104
+  - _ID: 12
+    _Role_ID: 3
+    _Year: 2023
+    _Action_ID: 150
+  - _ID: 13
+    _Role_ID: 3
+    _Year: 2023
+    _Action_ID: 174
+  - _ID: 14
+    _Role_ID: 0
+    _Year: 2024
+    _Action_ID: 101
+  - _ID: 15
+    _Role_ID: 1
+    _Year: 2024
+    _Action_ID: 245
+  - _ID: 16
+    _Role_ID: 2
+    _Year: 2024
+    _Action_ID: 129
+  - _ID: 17
+    _Role_ID: 3
+    _Year: 2024
+    _Action_ID: 150
+  - _ID: 18
+    _Role_ID: 3
+    _Year: 2024
+    _Action_ID: 152
+  - _ID: 19
+    _Role_ID: 3
+    _Year: 2024
+    _Action_ID: 177
+  - _ID: 20
+    _Role_ID: 2
+    _Year: 2025
+    _Action_ID: 86
+  - _ID: 21
+    _Role_ID: 2
+    _Year: 2025
+    _Action_ID: 93
+  - _ID: 22
+    _Role_ID: 2
+    _Year: 2025
+    _Action_ID: 79
+  - _ID: 23
+    _Role_ID: 1
+    _Year: 2025
+    _Action_ID: 24
+  - _ID: 24
+    _Role_ID: 1
+    _Year: 2025
+    _Action_ID: 17
+  - _ID: 25
+    _Role_ID: 0
+    _Year: 2025
+    _Action_ID: 103
+  - _ID: 26
+    _Role_ID: 3
+    _Year: 2025
+    _Action_ID: 144
+  - _ID: 27
+    _Role_ID: 3
+    _Year: 2025
+    _Action_ID: 217
+  - _ID: 28
+    _Role_ID: 3
+    _Year: 2026
+    _Action_ID: 194
+  - _ID: 29
+    _Role_ID: 3
+    _Year: 2026
+    _Action_ID: 197
+  - _ID: 30
+    _Role_ID: 3
+    _Year: 2026
+    _Action_ID: 151
+  - _ID: 31
+    _Role_ID: 1
+    _Year: 2026
+    _Action_ID: 22
+  - _ID: 32
+    _Role_ID: 1
+    _Year: 2026
+    _Action_ID: 12
+  - _ID: 33
+    _Role_ID: 2
+    _Year: 2026
+    _Action_ID: 211
+  - _ID: 34
+    _Role_ID: 2
+    _Year: 2026
+    _Action_ID: 75
+  - _ID: 35
+    _Role_ID: 0
+    _Year: 2026
+    _Action_ID: 210
+  - _ID: 36
+    _Role_ID: 0
+    _Year: 2026
+    _Action_ID: 219
+  - _ID: 37
+    _Role_ID: 0
+    _Year: 2026
+    _Action_ID: 213
+  - _ID: 38
+    _Role_ID: 1
+    _Year: 2027
+    _Action_ID: 13
+  - _ID: 39
+    _Role_ID: 3
+    _Year: 2027
+    _Action_ID: 150
+  - _ID: 40
+    _Role_ID: 3
+    _Year: 2027
+    _Action_ID: 154
+  - _ID: 41
+    _Role_ID: 3
+    _Year: 2027
+    _Action_ID: 173
+  - _ID: 42
+    _Role_ID: 2
+    _Year: 2027
+    _Action_ID: 83
+  - _ID: 43
+    _Role_ID: 2
+    _Year: 2027
+    _Action_ID: 92
+  - _ID: 44
+    _Role_ID: 0
+    _Year: 2027
+    _Action_ID: 210
+  - _ID: 45
+    _Role_ID: 0
+    _Year: 2027
+    _Action_ID: 114
+  - _ID: 46
+    _Role_ID: 3
+    _Year: 2028
+    _Action_ID: 217
+  - _ID: 47
+    _Role_ID: 3
+    _Year: 2028
+    _Action_ID: 144
+  - _ID: 48
+    _Role_ID: 3
+    _Year: 2028
+    _Action_ID: 170
+  - _ID: 49
+    _Role_ID: 0
+    _Year: 2028
+    _Action_ID: 210
+  - _ID: 50
+    _Role_ID: 0
+    _Year: 2028
+    _Action_ID: 219
+  - _ID: 51
+    _Role_ID: 2
+    _Year: 2028
+    _Action_ID: 95
+  - _ID: 52
+    _Role_ID: 2
+    _Year: 2028
+    _Action_ID: 91
+  - _ID: 53
+    _Role_ID: 1
+    _Year: 2029
+    _Action_ID: 23
+  - _ID: 54
+    _Role_ID: 1
+    _Year: 2029
+    _Action_ID: 18
+  - _ID: 55
+    _Role_ID: 3
+    _Year: 2029
+    _Action_ID: 176
+  - _ID: 56
+    _Role_ID: 3
+    _Year: 2029
+    _Action_ID: 147
+  - _ID: 57
+    _Role_ID: 2
+    _Year: 2029
+    _Action_ID: 211
+  - _ID: 58
+    _Role_ID: 2
+    _Year: 2029
+    _Action_ID: 90
+  - _ID: 59
+    _Role_ID: 2
+    _Year: 2029
+    _Action_ID: 136
+  - _ID: 60
+    _Role_ID: 0
+    _Year: 2029
+    _Action_ID: 219
+  - _ID: 61
+    _Role_ID: 0
+    _Year: 2029
+    _Action_ID: 191
+  - _ID: 62
+    _Role_ID: 3
+    _Year: 2030
+    _Action_ID: 202
+  - _ID: 63
+    _Role_ID: 0
+    _Year: 2030
+    _Action_ID: 210
+  - _ID: 64
+    _Role_ID: 0
+    _Year: 2030
+    _Action_ID: 186
+  - _ID: 65
+    _Role_ID: 1
+    _Year: 2030
+    _Action_ID: 26
+  - _ID: 66
+    _Role_ID: 2
+    _Year: 2030
+    _Action_ID: 211
+  - _ID: 67
+    _Role_ID: 2
+    _Year: 2030
+    _Action_ID: 77
+  - _ID: 68
+    _Role_ID: 3
+    _Year: 2031
+    _Action_ID: 170
+  - _ID: 69
+    _Role_ID: 3
+    _Year: 2031
+    _Action_ID: 221
+  - _ID: 70
+    _Role_ID: 0
+    _Year: 2031
+    _Action_ID: 133
+  - _ID: 71
+    _Role_ID: 0
+    _Year: 2031
+    _Action_ID: 190
+  - _ID: 72
+    _Role_ID: 2
+    _Year: 2031
+    _Action_ID: 211
+  - _ID: 73
+    _Role_ID: 2
+    _Year: 2031
+    _Action_ID: 80
+  - _ID: 74
+    _Role_ID: 3
+    _Year: 2032
+    _Action_ID: 217
+  - _ID: 75
+    _Role_ID: 3
+    _Year: 2032
+    _Action_ID: 164
+  - _ID: 76
+    _Role_ID: 2
+    _Year: 2032
+    _Action_ID: 211
+  - _ID: 77
+    _Role_ID: 2
+    _Year: 2032
+    _Action_ID: 129
+  - _ID: 78
+    _Role_ID: 0
+    _Year: 2032
+    _Action_ID: 135
+  - _ID: 79
+    _Role_ID: 0
+    _Year: 2032
+    _Action_ID: 120
+  - _ID: 80
+    _Role_ID: 0
+    _Year: 2032
+    _Action_ID: 192
+  - _ID: 81
+    _Role_ID: 1
+    _Year: 2032
+    _Action_ID: 188
+  - _ID: 82
+    _Role_ID: 1
+    _Year: 2032
+    _Action_ID: 21
+  - _ID: 83
+    _Role_ID: 1
+    _Year: 2032
+    _Action_ID: 64
+  - _ID: 85
+    _Role_ID: 3
+    _Year: 2033
+    _Action_ID: 168
+  - _ID: 86
+    _Role_ID: 3
+    _Year: 2033
+    _Action_ID: 233
+  - _ID: 87
+    _Role_ID: 0
+    _Year: 2033
+    _Action_ID: 132
+  - _ID: 88
+    _Role_ID: 0
+    _Year: 2033
+    _Action_ID: 189
+  - _ID: 89
+    _Role_ID: 0
+    _Year: 2033
+    _Action_ID: 137
+  - _ID: 90
+    _Role_ID: 2
+    _Year: 2033
+    _Action_ID: 211
+  - _ID: 91
+    _Role_ID: 1
+    _Year: 2033
+    _Action_ID: 20
+  - _ID: 92
+    _Role_ID: 1
+    _Year: 2033
+    _Action_ID: 25
+  - _ID: 93
+    _Role_ID: 2
+    _Year: 2034
+    _Action_ID: 212
+  - _ID: 94
+    _Role_ID: 2
+    _Year: 2034
+    _Action_ID: 216
+  - _ID: 95
+    _Role_ID: 2
+    _Year: 2034
+    _Action_ID: 230
+  - _ID: 96
+    _Role_ID: 0
+    _Year: 2034
+    _Action_ID: 140
+  - _ID: 97
+    _Role_ID: 0
+    _Year: 2034
+    _Action_ID: 141
+  - _ID: 98
+    _Role_ID: 0
+    _Year: 2034
+    _Action_ID: 134
+  - _ID: 99
+    _Role_ID: 3
+    _Year: 2034
+    _Action_ID: 226
+  - _ID: 100
+    _Role_ID: 3
+    _Year: 2034
+    _Action_ID: 197
+  - _ID: 101
+    _Role_ID: 1
+    _Year: 2034
+    _Action_ID: 13
+  - _ID: 102
+    _Role_ID: 1
+    _Year: 2034
+    _Action_ID: 65
+  - _ID: 103
+    _Role_ID: 0
+    _Year: 2035
+    _Action_ID: 224
+  - _ID: 104
+    _Role_ID: 0
+    _Year: 2035
+    _Action_ID: 112
+  - _ID: 105
+    _Role_ID: 0
+    _Year: 2035
+    _Action_ID: 124
+  - _ID: 106
+    _Role_ID: 1
+    _Year: 2035
+    _Action_ID: 215
+  - _ID: 107
+    _Role_ID: 3
+    _Year: 2035
+    _Action_ID: 150
+  - _ID: 108
+    _Role_ID: 3
+    _Year: 2035
+    _Action_ID: 217
+  - _ID: 109
+    _Role_ID: 2
+    _Year: 2035
+    _Action_ID: 81
+  - _ID: 110
+    _Role_ID: 2
+    _Year: 2035
+    _Action_ID: 99
+  - _ID: 111
+    _Role_ID: 3
+    _Year: 2032
+    _Action_ID: 254

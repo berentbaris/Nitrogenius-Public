@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc99831d731cd9c41a85f835d366ff05, type: 3}
+  m_Name: Events
+  m_EditorClassIdentifier: 
+  ID: 4
+  Description: 
+  resourceType: 0
+  Concerns: 
+  Icon: {fileID: 21300000, guid: d9cbe29644ef6d6439074e70b64f4da3, type: 3}
+  color: {fileID: 11400000, guid: 808efdc119224da4f80db8f8949d05f6, type: 2}
+  Budget: 2000
+  BudgetRecord:
+  - 2000
+  - 2000
+  Image: 10
+  N2O_Emissions: 0
+  N20Record:
+  - 0
+  - 0
+  NH3_Emissions: 0
+  NH3Record:
+  - 0
+  - 0
+  Nox_Emissions: 0
+  NoxRecord:
+  - 0
+  - 0
+  Action_Limit_Per_Turn: 3
+  Actions:
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 238
+    _Name: Greenpeace Files Lawsuit
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 1
+    _Description: Greenpeace NL has filed a lawsuit against the Dutch government!
+      They are claiming that the government is neglecting its citizens' well-being
+      by failing to do something about the nitrogen crisis.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 
+    _Effects: []
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 239
+    _Name: Greenpeace Wins
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2028
+    _Importance: 1
+    _Description: Greenpeace NL has won the court case! The Dutch court in The Hague
+      has ruled that the government has to take action to solve the nitrogen crisis
+      (for example, by taxing fertilizer use).
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: b3050000a4050000dc0500000f05000011050000a00f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1459
+      _Property: Emission_N2O
+      _Game_Object: Me-Fert
+      _ObjectID: 40
+      _Object: 4
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1444
+      _Property: Budget
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 1
+      _Value: 600
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1500
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 1
+      _Value: -0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1295
+      _Property: PricePerUnit
+      _Game_Object: Art-Fertiliser
+      _ObjectID: 3
+      _Object: 4
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1297
+      _Property: PricePerUnit
+      _Game_Object: Me-Fert
+      _ObjectID: 40
+      _Object: 4
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4000
+      _Property: Budget
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 240
+    _Name: Greenpeace Loses
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2028
+    _Importance: 1
+    _Description: Greenpeace NL has lost the court case. The Dutch court in The Hague
+      has ruled that the nitrogen crisis is not significantly impacting the well-being
+      of Dutch citizens.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 
+    _Effects: []
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 241
+    _Name: Transnational Deposition
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2030
+    _Importance: 1
+    _Description: Nitrogen emissions from Dutch farms are being carried by atmospheric
+      currents to Germany! The Germans want to cooperate to tackle the nitrogen crisis.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 99050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1433
+      _Property: DirectDummyCost
+      _Game_Object: International NOx reduction
+      _ObjectID: 217
+      _Object: 2
+      _Value: 0.9
+      _Operator: 2
+      _Extent: 2
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 243
+    _Name: Housing Crisis Intensifies
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2028
+    _Importance: 1
+    _Description: The limitation of new construction projects has intensified the
+      housing crisis. Citizens cannot find a place to live! The government is required
+      to ease the limitations for the sake of development.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: a20f00002e020000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4002
+      _Property: ProductVolume
+      _Game_Object: Building Construction
+      _ObjectID: 26
+      _Object: 3
+      _Value: 1.07
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 558
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 1
+      _Value: -0.3
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 248
+    _Name: 2025 Target Met
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 1
+    _Description: You succeeded in meeting the 2025 national target of bringing 40%
+      of nitrogen-sensitive Natura 2000 areas back below the critical deposition
+      loads.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 
+    _Effects: []
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 249
+    _Name: 2025 Target Not Met
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 1
+    _Description: You have failed to meet the 2025 national target of bringing 40%
+      of nitrogen-sensitive Natura 2000 areas back below the critical deposition
+      loads.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 
+    _Effects: []
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 250
+    _Name: 2030 Target Met
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2030
+    _Importance: 1
+    _Description: You succeeded in meeting the 2030 national target of bringing 50%
+      of nitrogen-sensitive Natura 2000 areas back below the critical deposition
+      loads.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 
+    _Effects: []
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 251
+    _Name: 2030 Target Not Met
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2030
+    _Importance: 1
+    _Description: You have failed to meet the 2030 national target of bringing 50%
+      of nitrogen-sensitive Natura 2000 areas back below the critical deposition
+      loads.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 
+    _Effects: []
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}
+  SelectedChoices:
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 243
+    _Name: Housing Crisis Intensifies
+    _Belonging_Sector_ID: 4
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2028
+    _Importance: 1
+    _Description: The limitation of new construction projects has intensified the
+      housing crisis. Citizens cannot find a place to live! The government is required
+      to ease the limitations for the sake of development.
+    _Repetivity: ExecOnce
+    _Cost: 0
+    _NH3: 
+    _Nox: 
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: a20f00002e020000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4002
+      _Property: ProductVolume
+      _Game_Object: Building Construction
+      _ObjectID: 26
+      _Object: 3
+      _Value: 1.07
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 558
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 1
+      _Value: -0.3
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: 
+    _Image_Sprite: {fileID: 0}

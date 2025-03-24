@@ -1,0 +1,559 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07880f1285476bc4fa55e06d9fb393f7, type: 3}
+  m_Name: ProductData Initial
+  m_EditorClassIdentifier: 
+  _ProductItems:
+  - _ID: 1
+    _Name: Air-tr
+    _Unit: MEuro/kton
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.6993
+    _Price_Per_Unit: 1.6396
+  - _ID: 2
+    _Name: Al
+    _Unit: MEuro/kton al
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 1.0526
+    _Price_Per_Unit: 1.4
+  - _ID: 3
+    _Name: Art-Fertiliser
+    _Unit: Meuro/kton
+    _Emission_N2O: 0.0001
+    _Emission_NH3: 12.859614
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.76
+  - _ID: 4
+    _Name: Bauxiet
+    _Unit: MEuro/kton
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.1
+  - _ID: 5
+    _Name: Beet
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 2.319
+    _Price_Per_Unit: 1
+  - _ID: 6
+    _Name: C-Cook-m3
+    _Unit: MEuro/Mm3
+    _Emission_N2O: 0.008
+    _Emission_NH3: 0.142
+    _Emission_NO3: 0
+    _Emission_NOx: 0.0009
+    _Price_Per_Unit: 0.85
+  - _ID: 7
+    _Name: C-Dies-km
+    _Unit: MEuro/Mkm
+    _Emission_N2O: 0.03
+    _Emission_NH3: 0.03
+    _Emission_NO3: 0
+    _Emission_NOx: 0.9039
+    _Price_Per_Unit: 0.06
+  - _ID: 8
+    _Name: C-Elec
+    _Unit: MEuro/MkWh
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.0001
+    _Price_Per_Unit: 0.22
+  - _ID: 9
+    _Name: C-Gas-km
+    _Unit: MEuro/Mkm
+    _Emission_N2O: 0.018
+    _Emission_NH3: 0.089
+    _Emission_NO3: 0
+    _Emission_NOx: 0.3552
+    _Price_Per_Unit: 0.13
+  - _ID: 10
+    _Name: C-Heat-m3
+    _Unit: MEuro/Mm3
+    _Emission_N2O: 0.008
+    _Emission_NH3: 0.071
+    _Emission_NO3: 0
+    _Emission_NOx: 0.0087
+    _Price_Per_Unit: 0.43
+  - _ID: 11
+    _Name: Chick
+    _Unit: MEuro/mln-chick
+    _Emission_N2O: 0
+    _Emission_NH3: 5.8679523
+    _Emission_NO3: 0
+    _Emission_NOx: 2.7827
+    _Price_Per_Unit: 1.2
+  - _ID: 12
+    _Name: Coal
+    _Unit: MEuro/kton
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.0317
+  - _ID: 13
+    _Name: Corn
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 2.319
+    _Price_Per_Unit: 1
+  - _ID: 14
+    _Name: C-Pet-km
+    _Unit: MEuro/Mkm
+    _Emission_N2O: 0.068
+    _Emission_NH3: 0.027
+    _Emission_NO3: 0
+    _Emission_NOx: 0.9555
+    _Price_Per_Unit: 0.1
+  - _ID: 15
+    _Name: C-Ship-km
+    _Unit: MEuro/Ship
+    _Emission_N2O: 0
+    _Emission_NH3: 10
+    _Emission_NO3: 0
+    _Emission_NOx: 40
+    _Price_Per_Unit: 5
+  - _ID: 16
+    _Name: Diesel
+    _Unit: Meuro/mliter
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.56
+  - _ID: 17
+    _Name: Dies-Mtonkm
+    _Unit: MEuro/Mtonkm
+    _Emission_N2O: 0.004
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.3764
+    _Price_Per_Unit: 0.0342
+  - _ID: 18
+    _Name: Egg
+    _Unit: MEuro/mln-kg
+    _Emission_N2O: 0
+    _Emission_NH3: 5.8679523
+    _Emission_NO3: 0
+    _Emission_NOx: 0.4638
+    _Price_Per_Unit: 0.2
+  - _ID: 19
+    _Name: Elec-l
+    _Unit: Euro/kWh
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.0541
+  - _ID: 20
+    _Name: Elec-s
+    _Unit: Euro/kWh
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.0868
+  - _ID: 21
+    _Name: Fe
+    _Unit: Euro/kton fe
+    _Emission_N2O: 0.025
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.5375
+    _Price_Per_Unit: 0.2204
+  - _ID: 22
+    _Name: Fe-erts
+    _Unit: MEuro/kton
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.01
+  - _ID: 23
+    _Name: Flights
+    _Unit: Euro/Flights
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.0446
+    _Price_Per_Unit: 0.1221
+  - _ID: 24
+    _Name: Gas-l
+    _Unit: Euro/m3
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.1227
+  - _ID: 25
+    _Name: Gas-s
+    _Unit: Euro/m3
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.2182
+  - _ID: 26
+    _Name: Gas-xl
+    _Unit: Euro/m3
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.089
+  - _ID: 27
+    _Name: Kerosine
+    _Unit: Meuro/Ml
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.25
+  - _ID: 28
+    _Name: Krachtvoer
+    _Unit: MEuro/kton
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.0017
+  - _ID: 29
+    _Name: LPG
+    _Unit: Meuro/mliter
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.35
+  - _ID: 30
+    _Name: Manure 1
+    _Unit: Euro/ton
+    _Emission_N2O: 0.0001
+    _Emission_NH3: 90404.586
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0
+  - _ID: 31
+    _Name: Manure 2
+    _Unit: Euro/ton
+    _Emission_N2O: 0.0001
+    _Emission_NH3: 90404.586
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0
+  - _ID: 32
+    _Name: Me-Ad
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.1069
+    _Price_Per_Unit: 1
+  - _ID: 33
+    _Name: Me-Bio
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 2.319
+    _Price_Per_Unit: 1
+  - _ID: 34
+    _Name: Me-Build
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.1397
+    _Price_Per_Unit: 1
+  - _ID: 35
+    _Name: Me-C-Eelec
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0.007
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 17.3544
+    _Price_Per_Unit: 1
+  - _ID: 36
+    _Name: Me-Chem
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0.219
+    _Emission_NH3: 0.077
+    _Emission_NO3: 0
+    _Emission_NOx: 0.2295
+    _Price_Per_Unit: 1
+  - _ID: 37
+    _Name: Me-Constr
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.1069
+    _Price_Per_Unit: 1
+  - _ID: 38
+    _Name: Me-crop
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 2.319
+    _Price_Per_Unit: 1
+  - _ID: 39
+    _Name: Me-Distr
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 1
+  - _ID: 40
+    _Name: Me-Fert
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 22.764
+    _Emission_NH3: 1.626
+    _Emission_NO3: 0
+    _Emission_NOx: 0.4415
+    _Price_Per_Unit: 1
+  - _ID: 41
+    _Name: Me-G-Elec
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0.002
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 12.7314
+    _Price_Per_Unit: 1
+  - _ID: 42
+    _Name: Me-H2
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 1
+  - _ID: 43
+    _Name: Me-H2O
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 1
+  - _ID: 44
+    _Name: Me-Hort
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 3.3226
+    _Price_Per_Unit: 1
+  - _ID: 45
+    _Name: Me-Ind
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0.017
+    _Emission_NO3: 0
+    _Emission_NOx: 0.6172
+    _Price_Per_Unit: 1
+  - _ID: 46
+    _Name: Me-Ref
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 1.9976
+    _Price_Per_Unit: 1
+  - _ID: 47
+    _Name: Me-Ren
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 1
+  - _ID: 48
+    _Name: Me-Trade
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.0143
+    _Price_Per_Unit: 1
+  - _ID: 49
+    _Name: Meuro
+    _Unit: MEuro/MNfl
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.1069
+    _Price_Per_Unit: 1
+  - _ID: 50
+    _Name: Me-Win
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.0979
+    _Price_Per_Unit: 1
+  - _ID: 51
+    _Name: Milk
+    _Unit: Euro/mln-l
+    _Emission_N2O: 0
+    _Emission_NH3: 3.2429848
+    _Emission_NO3: 0
+    _Emission_NOx: 0.9276
+    _Price_Per_Unit: 0.4
+  - _ID: 52
+    _Name: N-exit
+    _Unit: Euro/N-exit
+    _Emission_N2O: 0.01
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.0051
+    _Price_Per_Unit: 0.0141
+  - _ID: 53
+    _Name: Oil
+    _Unit: Euro/ton
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.1
+  - _ID: 54
+    _Name: Paper
+    _Unit: MEuro/kton Pap.
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.2399
+    _Price_Per_Unit: 2.4293
+  - _ID: 55
+    _Name: Petrol
+    _Unit: Meuro/mliter
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 1.1
+  - _ID: 56
+    _Name: Pork
+    _Unit: MEuro/mln-pig
+    _Emission_N2O: 0
+    _Emission_NH3: 7.5949736
+    _Emission_NO3: 0
+    _Emission_NOx: 2.4349
+    _Price_Per_Unit: 1.05
+  - _ID: 57
+    _Name: Potatoe
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 2.319
+    _Price_Per_Unit: 1
+  - _ID: 58
+    _Name: Rail-Mkm
+    _Unit: MEuro/Mrail-km
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.0349
+    _Price_Per_Unit: 0.0893
+  - _ID: 59
+    _Name: Rail-Mtonkm
+    _Unit: MEuro/Mtonkm
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.4658
+    _Price_Per_Unit: 0.0352
+  - _ID: 60
+    _Name: Sea-kton
+    _Unit: MEuro/kton
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.032
+    _Price_Per_Unit: 0.008
+  - _ID: 61
+    _Name: Veal
+    _Unit: MEuro/mln-cow
+    _Emission_N2O: 0
+    _Emission_NH3: 3.2429848
+    _Emission_NO3: 0
+    _Emission_NOx: 3.2465
+    _Price_Per_Unit: 1.4
+  - _ID: 62
+    _Name: Waste
+    _Unit: MEuro/kton
+    _Emission_N2O: 0.019
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0.3417
+    _Price_Per_Unit: 0.08
+  - _ID: 63
+    _Name: Water
+    _Unit: Euro/m3
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 1.14
+  - _ID: 64
+    _Name: Wat-Mtonkm
+    _Unit: MEuro/Mtonkm
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 4.6364
+    _Price_Per_Unit: 0.1367
+  - _ID: 65
+    _Name: Wheat
+    _Unit: MEuro/Meuro
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 2.319
+    _Price_Per_Unit: 1
+  - _ID: 66
+    _Name: Wood
+    _Unit: Euro/m3
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 147
+  - _ID: 67
+    _Name: Zn
+    _Unit: MEuro/kton Zn
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 3.0867
+    _Price_Per_Unit: 0.8
+  - _ID: 68
+    _Name: Zn-erts
+    _Unit: Meuro/kton
+    _Emission_N2O: 0
+    _Emission_NH3: 0
+    _Emission_NO3: 0
+    _Emission_NOx: 0
+    _Price_Per_Unit: 0.06

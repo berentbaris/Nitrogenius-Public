@@ -1,0 +1,2206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc99831d731cd9c41a85f835d366ff05, type: 3}
+  m_Name: Government
+  m_EditorClassIdentifier: 
+  ID: 3
+  Description: Try to get re-elected
+  resourceType: 0
+  Concerns: Increase your image
+  Icon: {fileID: 21300000, guid: 74f7625cdf81aa74a927d947f102a217, type: 3}
+  color: {fileID: 11400000, guid: b9b7cceb4b456c644bd5c6de86451a17, type: 2}
+  Budget: 273788.75
+  Image: 0
+  N2O_Emissions: 0
+  NH3_Emissions: 0
+  Nox_Emissions: 483403.34
+  Action_Limit_Per_Turn: 3
+  Actions:
+  - _Action_ID: 127
+    _Name: Switch To Wind Power
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Install more wind systems for power generation.
+    _Repetivity: Rotating
+    _Cost: 300
+    Initial_Cost: 300
+    _NH3_reduction: 
+    _NOx_reduction: --
+    _N2O_reduction: 
+    _Image: +
+    _Budget: 
+    _Effect_IDs: cc030000cd030000ce030000cb030000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 972
+      _Property: ProductVolume
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.2
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 973
+      _Property: ProductVolume
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.2
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 974
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.15
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 971
+      _Property: ProductVolume
+      _Game_Object: Renewables
+      _ObjectID: 5
+      _Object: 1
+      _Value: 600
+      _Operator: 2
+      _Extent: 3
+  - _Action_ID: 143
+    _Name: Switch To Nuclear Energy
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Let's reintroduce this technology in the Polder. Investment 100
+      MEuro. Power generation using gas and coal is reduced by 15%.
+    _Repetivity: Rotating
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: ---
+    _N2O_reduction: 
+    _Image: ---
+    _Budget: 
+    _Effect_IDs: e7040000e8040000e9040000e5040000e6040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1255
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: -0.3
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1256
+      _Property: Image
+      _Game_Object: Industry
+      _ObjectID: 0
+      _Object: 2
+      _Value: -0.15
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1257
+      _Property: ProductVolume
+      _Game_Object: Renewables
+      _ObjectID: 5
+      _Object: 1
+      _Value: 0.8
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1253
+      _Property: ProductVolume
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.9
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1254
+      _Property: ProductVolume
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.6
+      _Operator: 1
+      _Extent: 1
+  - _Action_ID: 144
+    _Name: Subsidize Organic Farming
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Provide subsidies for organic farming according to EU-regulations.
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: 
+    _N2O_reduction: 
+    _Image: ++
+    _Budget: 
+    _Effect_IDs: 4203000043030000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 834
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 835
+      _Property: PricePerUnit
+      _Game_Object: Me-Bio
+      _ObjectID: 33
+      _Object: 3
+      _Value: 0.2
+      _Operator: 4
+      _Extent: 1
+  - _Action_ID: 147
+    _Name: Research Carbon Sequestration
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Invest now to reduce future costs for implementation of C-sequestration
+      technologies in the Netherlands. Investment costs 50 MEuro. Spin off from this
+      research results in improved efficiency.
+    _Repetivity: ExecOnce
+    _Cost: 50
+    Initial_Cost: 50
+    _NH3_reduction: 
+    _NOx_reduction: '-'
+    _N2O_reduction: 
+    _Image: ++
+    _Budget: 
+    _Effect_IDs: ef0d0000f00d0000f10d0000c0030000c1030000c2030000c4030000a6050000c3030000ea040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3567
+      _Property: DirectDummyCost
+      _Game_Object: Carbon and NOx storage
+      _ObjectID: 233
+      _Object: 4
+      _Value: 200
+      _Operator: 4
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3568
+      _Property: DirectDummyCost
+      _Game_Object: Carbon storage and SCR
+      _ObjectID: 236
+      _Object: 4
+      _Value: 200
+      _Operator: 4
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3569
+      _Property: DirectDummyCost
+      _Game_Object: Hydrogen production with C sequestration
+      _ObjectID: 237
+      _Object: 4
+      _Value: 200
+      _Operator: 4
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 960
+      _Property: Emission_NOx
+      _Game_Object: Me-C-Elec
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.98
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 961
+      _Property: FacCostBuild
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 50
+      _Operator: 4
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 962
+      _Property: FacCostEM
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 50
+      _Operator: 4
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 964
+      _Property: FuelUsePerUnit
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.98
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1446
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 963
+      _Property: JobsPerUnit
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.99
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 0}
+      sectorList: {fileID: 0}
+      activityData: {fileID: 0}
+      actionData: {fileID: 0}
+      _ID: 0
+      _Property: 
+      _Game_Object: 
+      _ObjectID: 0
+      _Object: 0
+      _Value: 0
+      _Operator: 0
+      _Extent: 0
+  - _Action_ID: 150
+    _Name: Tax Car Use
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Charge all private transport a tax on road use of 0.10 Euro/km
+      for gasoline/diesel/NG. This will not help your Image!
+    _Repetivity: Permanent
+    _Cost: -1000
+    Initial_Cost: -1000
+    _NH3_reduction: 
+    _NOx_reduction: 
+    _N2O_reduction: 
+    _Image: ----
+    _Budget: 
+    _Effect_IDs: a4040000a5040000a6040000a7040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1188
+      _Property: PricePerUnit
+      _Game_Object: C-Gas-km
+      _ObjectID: 9
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1189
+      _Property: PricePerUnit
+      _Game_Object: C-Pet-km
+      _ObjectID: 14
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1190
+      _Property: PricePerUnit
+      _Game_Object: C-Dies-km
+      _ObjectID: 7
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1191
+      _Property: PricePerUnit
+      _Game_Object: Dies-Mtonkm
+      _ObjectID: 17
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+  - _Action_ID: 151
+    _Name: Tax Gas And Diesel
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Charge an Ecotax of 0.10 Euro/liter of gas or diesel.
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: 
+    _N2O_reduction: 
+    _Image: ----
+    _Budget: 
+    _Effect_IDs: 2e0200002f02000030020000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 558
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: -0.3
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 559
+      _Property: PricePerUnit
+      _Game_Object: Me-Win
+      _ObjectID: 50
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 560
+      _Property: PricePerUnit
+      _Game_Object: diesel
+      _ObjectID: 16
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 1
+  - _Action_ID: 152
+    _Name: Enable Manure Processing
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: New ways of manure processing have become available. Invest 1000
+      MEuro in manure treatment plants that will also generate electricity!
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: 
+    _N2O_reduction: 
+    _Image: ++++
+    _Budget: 
+    _Effect_IDs: de050000f2040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1502
+      _Property: DirectDummyCost
+      _Game_Object: Manure Processing
+      _ObjectID: 14
+      _Object: 4
+      _Value: 0.8
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1266
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 1
+  - _Action_ID: 154
+    _Name: Energy Saving Program
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Set up a program to promote research on energy efficiency in the
+      electricity generation sector.
+    _Repetivity: Rotating
+    _Cost: 540
+    Initial_Cost: 540
+    _NH3_reduction: 
+    _NOx_reduction: '-'
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 5f02000061020000530200005402000055020000560200005702000058020000590200005a0200005b020000f40400005c0200005d0200005e020000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 607
+      _Property: Emission_NOx
+      _Game_Object: Me-C-Elec
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 609
+      _Property: Emission_NOx
+      _Game_Object: Me-G-Elec
+      _ObjectID: 41
+      _Object: 3
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 595
+      _Property: FacCostBuild
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 100
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 596
+      _Property: FacCostBuild
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 100
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 597
+      _Property: FacCostBuild
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 50
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 598
+      _Property: FacCostEM
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 10
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 599
+      _Property: FacCostEM
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 10
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 600
+      _Property: FacCostEM
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 20
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 601
+      _Property: FuelUsePerUnit
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.75
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 602
+      _Property: FuelUsePerUnit
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.75
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 603
+      _Property: FuelUsePerUnit
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.75
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1268
+      _Property: Image
+      _Game_Object: Industry
+      _ObjectID: 0
+      _Object: 2
+      _Value: 0.02
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 604
+      _Property: JobsPerUnit
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 605
+      _Property: JobsPerUnit
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 606
+      _Property: JobsPerUnit
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+  - _Action_ID: 164
+    _Name: Nitrogen Emissions Ceiling
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Implement total nitrogen emission ceilings for all industrial sector
+      that are more strict than EU regulations. Each sector that emits more than
+      its quota will be charged.
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: --
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: b9020000ba020000bb020000bc020000bd020000be020000bf020000c0020000c1020000c2020000c3020000c5020000c6020000c7020000c8020000c9020000ca020000cb020000cc020000cd020000ce020000cf020000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 697
+      _Property: QuotumNOx
+      _Game_Object: Aluminium Industry
+      _ObjectID: 10
+      _Object: 1
+      _Value: 0.2
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 698
+      _Property: QuotumNOx
+      _Game_Object: Aviation (freight)
+      _ObjectID: 22
+      _Object: 1
+      _Value: 0.6
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 699
+      _Property: QuotumNOx
+      _Game_Object: Aviation (passengers)
+      _ObjectID: 23
+      _Object: 1
+      _Value: 0.6
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 700
+      _Property: QuotumNOx
+      _Game_Object: Rail cargo transport
+      _ObjectID: 24
+      _Object: 1
+      _Value: 16
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 701
+      _Property: QuotumNOx
+      _Game_Object: Transport over water (inland)
+      _ObjectID: 27
+      _Object: 1
+      _Value: 10
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 702
+      _Property: QuotumNOx
+      _Game_Object: Chemical Industry
+      _ObjectID: 13
+      _Object: 1
+      _Value: 3.2
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 703
+      _Property: QuotumNOx
+      _Game_Object: Fertiliser Industry
+      _ObjectID: 14
+      _Object: 1
+      _Value: 1.2
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 704
+      _Property: QuotumNOx
+      _Game_Object: Gas Heating
+      _ObjectID: 43
+      _Object: 1
+      _Value: 3.2
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 705
+      _Property: QuotumNOx
+      _Game_Object: Gas Cooking
+      _ObjectID: 44
+      _Object: 1
+      _Value: 3.2
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 706
+      _Property: QuotumNOx
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 707
+      _Property: QuotumNOx
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 1
+      _Value: 3.6
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 709
+      _Property: QuotumNOx
+      _Game_Object: Other Industry
+      _ObjectID: 16
+      _Object: 1
+      _Value: 1.6
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 710
+      _Property: QuotumNOx
+      _Game_Object: Paper Industry
+      _ObjectID: 12
+      _Object: 1
+      _Value: 1.2
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 711
+      _Property: QuotumNOx
+      _Game_Object: Private transport petrol
+      _ObjectID: 40
+      _Object: 1
+      _Value: 3.2
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 712
+      _Property: QuotumNOx
+      _Game_Object: Private transport diesel
+      _ObjectID: 41
+      _Object: 1
+      _Value: 0.4
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 713
+      _Property: QuotumNOx
+      _Game_Object: Private transport gas
+      _ObjectID: 42
+      _Object: 1
+      _Value: 4
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 714
+      _Property: QuotumNOx
+      _Game_Object: Private transport ships
+      _ObjectID: 46
+      _Object: 1
+      _Value: 1.6
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 715
+      _Property: QuotumNOx
+      _Game_Object: Rail transport
+      _ObjectID: 25
+      _Object: 1
+      _Value: 0.4
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 716
+      _Property: QuotumNOx
+      _Game_Object: Refineries
+      _ObjectID: 8
+      _Object: 1
+      _Value: 4.4
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 717
+      _Property: QuotumNOx
+      _Game_Object: Steel Industry
+      _ObjectID: 9
+      _Object: 1
+      _Value: 2
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 718
+      _Property: QuotumNOx
+      _Game_Object: Waste Incinerators
+      _ObjectID: 18
+      _Object: 1
+      _Value: 4.8
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 719
+      _Property: QuotumNOx
+      _Game_Object: Zinc Industry
+      _ObjectID: 11
+      _Object: 1
+      _Value: 0.8
+      _Operator: 3
+      _Extent: 1
+  - _Action_ID: 168
+    _Name: Implement H2 Infrastructure
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: The hydrogen technology is moving forward. This zero emission fuel
+      can be generated with renewable energy or from fossil fuel in combination with
+      CO2 sequestration.
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: ---
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: f5040000f6040000f7040000f8040000f9040000fa040000fb040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1269
+      _Property: Emission_NOx
+      _Game_Object: Me-G-Elec
+      _ObjectID: 41
+      _Object: 3
+      _Value: 0.6
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1270
+      _Property: Emission_NOx
+      _Game_Object: Me-C-Elec
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.6
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1271
+      _Property: Emission_NOx
+      _Game_Object: Paper
+      _ObjectID: 54
+      _Object: 3
+      _Value: 0.3
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1272
+      _Property: FacCostBuild
+      _Game_Object: Paper Industry
+      _ObjectID: 12
+      _Object: 1
+      _Value: 10
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1273
+      _Property: FacCostBuild
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 500
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1274
+      _Property: FacCostBuild
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 500
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1275
+      _Property: FacCostBuild
+      _Game_Object: E-Distribution
+      _ObjectID: 6
+      _Object: 1
+      _Value: 500
+      _Operator: 2
+      _Extent: 3
+  - _Action_ID: 170
+    _Name: Reduce Max Highway Speed
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Reduce the maximum speed on the highways from 120 to 100 km/h.
+      Your Image will suffer! But you will reduce transportation emissions by 10%
+      and create more jobs for enforcement.
+    _Repetivity: Rotating
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: --
+    _N2O_reduction: 
+    _Image: ---
+    _Budget: 
+    _Effect_IDs: fe040000ff040000000500000105000004050000fc040000fd0400000205000003050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1278
+      _Property: Emission_NOx
+      _Game_Object: C-Pet-km
+      _ObjectID: 14
+      _Object: 3
+      _Value: 0.9
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1279
+      _Property: Emission_NOx
+      _Game_Object: C-Gas-km
+      _ObjectID: 9
+      _Object: 3
+      _Value: 0.9
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1280
+      _Property: Emission_NOx
+      _Game_Object: C-Dies-km
+      _ObjectID: 7
+      _Object: 3
+      _Value: 0.9
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1281
+      _Property: Emission_NOx
+      _Game_Object: Dies-Mtonkm
+      _ObjectID: 17
+      _Object: 3
+      _Value: 0.9
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1284
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: -0.2
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1276
+      _Property: PricePerUnit
+      _Game_Object: C-Pet-km
+      _ObjectID: 14
+      _Object: 3
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1277
+      _Property: PricePerUnit
+      _Game_Object: C-Gas-km
+      _ObjectID: 9
+      _Object: 3
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1282
+      _Property: PricePerUnit
+      _Game_Object: C-Dies-km
+      _ObjectID: 7
+      _Object: 3
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1283
+      _Property: PricePerUnit
+      _Game_Object: Dies-Mtonkm
+      _ObjectID: 17
+      _Object: 3
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+  - _Action_ID: 171
+    _Name: Subsidize Biogas
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Subsidize installation of 1000 MW electricity generation using
+      bio-gassification.
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: '-'
+    _N2O_reduction: 
+    _Image: +
+    _Budget: 
+    _Effect_IDs: 3c030000ce050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 828
+      _Property: FixedSubsidy
+      _Game_Object: Renewables
+      _ObjectID: 5
+      _Object: 1
+      _Value: 12
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1486
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 1
+  - _Action_ID: 172
+    _Name: Subsidize Solar Energy (Pv)
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Subsidize installation of 1000 MW electricity generation using
+      PV.
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: '-'
+    _N2O_reduction: 
+    _Image: +
+    _Budget: 
+    _Effect_IDs: 060500003e03000005050000b2050000b1050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1286
+      _Property: DirectDummyCost
+      _Game_Object: Switch to renew PV
+      _ObjectID: 126
+      _Object: 4
+      _Value: 2000
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 830
+      _Property: FixedSubsidy
+      _Game_Object: Renewables
+      _ObjectID: 5
+      _Object: 1
+      _Value: 12
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1285
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1458
+      _Property: ProductVolume
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.97
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1457
+      _Property: ProductVolume
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.97
+      _Operator: 1
+      _Extent: 1
+  - _Action_ID: 173
+    _Name: Subsidize Wind Energy
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Subsidise installation of 1000 MW electricity generation using
+      Windmills.
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: '-'
+    _N2O_reduction: 
+    _Image: +
+    _Budget: 
+    _Effect_IDs: 40030000af050000b0050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 832
+      _Property: FixedSubsidy
+      _Game_Object: Renewables
+      _ObjectID: 5
+      _Object: 1
+      _Value: 12
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1455
+      _Property: ProductVolume
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.96
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1456
+      _Property: ProductVolume
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.96
+      _Operator: 1
+      _Extent: 1
+  - _Action_ID: 174
+    _Name: Subsidize Micro Wkk
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Subsidize consumers that buy a WKK unit providing both heat and
+      electricity.
+    _Repetivity: ExecOnce
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: '-'
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 26060000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1574
+      _Property: DirectDummyCost
+      _Game_Object: Micro WKK
+      _ObjectID: 90
+      _Object: 4
+      _Value: 1000
+      _Operator: 3
+      _Extent: 1
+  - _Action_ID: 176
+    _Name: Switch From Coal To Ng
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Implement a policy to use more natural gas for electricity generation
+      and reduce the use of coal.
+    _Repetivity: Rotating
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: --
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 09050000070500000a0500000b0500000c0500000d0500000e05000008050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1289
+      _Property: ProductVolume
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.8
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1287
+      _Property: PricePerUnit
+      _Game_Object: C-Elec
+      _ObjectID: 8
+      _Object: 3
+      _Value: 0.15
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1290
+      _Property: PricePerUnit
+      _Game_Object: Elec-l
+      _ObjectID: 19
+      _Object: 3
+      _Value: 0.15
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 0}
+      sectorList: {fileID: 0}
+      activityData: {fileID: 0}
+      actionData: {fileID: 0}
+      _ID: 0
+      _Property: 
+      _Game_Object: 
+      _ObjectID: 0
+      _Object: 0
+      _Value: 0
+      _Operator: 0
+      _Extent: 0
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1292
+      _Property: PricePerUnit
+      _Game_Object: Gas-l
+      _ObjectID: 24
+      _Object: 3
+      _Value: 0.03
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1293
+      _Property: PricePerUnit
+      _Game_Object: Gas-s
+      _ObjectID: 25
+      _Object: 3
+      _Value: 0.03
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1294
+      _Property: PricePerUnit
+      _Game_Object: Gas-xl
+      _ObjectID: 26
+      _Object: 3
+      _Value: 0.03
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1288
+      _Property: ProductVolume
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.25
+      _Operator: 1
+      _Extent: 2
+  - _Action_ID: 177
+    _Name: Tax Fertilizer Use
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: 'Force the agricultural sector to use less chemical fertilisers.
+      (Caution: this measure might cause problems for the fertiliser industry).'
+    _Repetivity: ExecOnce
+    _Cost: 500
+    Initial_Cost: 500
+    _NH3_reduction: '-'
+    _NOx_reduction: '-'
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: b3050000a4050000dc0500000f05000011050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1459
+      _Property: Emission_N2O
+      _Game_Object: Me-Fert
+      _ObjectID: 40
+      _Object: 3
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1444
+      _Property: Budget
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 600
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1500
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: -0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1295
+      _Property: PricePerUnit
+      _Game_Object: Art-Fertiliser
+      _ObjectID: 3
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1297
+      _Property: PricePerUnit
+      _Game_Object: Me-Fert
+      _ObjectID: 40
+      _Object: 3
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 3
+  - _Action_ID: 194
+    _Name: Ban Internal Aviation
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: A country with a size of 300*500 km does not need internal flights.
+      Air transport is too environmentally unfriendly. Stop this now.
+    _Repetivity: ExecOnce
+    _Cost: 450
+    Initial_Cost: 450
+    _NH3_reduction: 
+    _NOx_reduction: '-'
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 18060000ad050000ac050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1560
+      _Property: ProductVolume
+      _Game_Object: Aviation (passengers)
+      _ObjectID: 23
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1453
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: -0.1
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1452
+      _Property: ProductVolume
+      _Game_Object: Aviation (passengers)
+      _ObjectID: 23
+      _Object: 1
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+  - _Action_ID: 197
+    _Name: Reduce Pm Emissions
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Particulate matter is recognised to have severe impacts on human
+      health. Implement new regulations that aim to reduce direct PM emissions and
+      precursor emissions.
+    _Repetivity: ExecOnce
+    _Cost: 300
+    Initial_Cost: 300
+    _NH3_reduction: 
+    _NOx_reduction: --
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: a7050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1447
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 1
+  - _Action_ID: 202
+    _Name: Take A Loan
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Ask China for a loan. This will boost your budget!
+    _Repetivity: Rotating
+    _Cost: -25
+    Initial_Cost: -25
+    _NH3_reduction: 
+    _NOx_reduction: +++
+    _N2O_reduction: 
+    _Image: --
+    _Budget: 
+    _Effect_IDs: 13060000140600001506000016060000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1555
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: -0.3
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1556
+      _Property: QuotumNox
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1557
+      _Property: QuotumNox
+      _Game_Object: Steel Industry
+      _ObjectID: 9
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1558
+      _Property: QuotumNox
+      _Game_Object: Gas E-Generation
+      _ObjectID: 3
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 2
+  - _Action_ID: 217
+    _Name: International Cooperation
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Emission reduction in the Netherlands alone is not enough. You
+      need international cooperation in order to reduce N deposition levels. 80%
+      of NOx deposition comes from abroad.
+    _Repetivity: Permanent
+    _Cost: 1000
+    Initial_Cost: 1000
+    _NH3_reduction: 
+    _NOx_reduction: 
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 99050000dd050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1433
+      _Property: DirectDummyCost
+      _Game_Object: International NOx reduction
+      _ObjectID: 217
+      _Object: 4
+      _Value: 0.9
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1501
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+  - _Action_ID: 221
+    _Name: Support Citizens
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: When things go wrong in industry a lot of people lose their job.
+      Support the unemployed and provide society with budget.
+    _Repetivity: Permanent
+    _Cost: 10000
+    Initial_Cost: 10000
+    _NH3_reduction: 
+    _NOx_reduction: 
+    _N2O_reduction: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: e6050000e7050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1510
+      _Property: Budget
+      _Game_Object: Society
+      _ObjectID: 2
+      _Object: 2
+      _Value: 1500
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1511
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.3
+      _Operator: 2
+      _Extent: 3
+  - _Action_ID: 223
+    _Name: Manure Production Quota
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Implement a structure in which "manure quota" can be traded.
+    _Repetivity: ExecOnce
+    _Cost: 4000
+    Initial_Cost: 4000
+    _NH3_reduction: --
+    _NOx_reduction: 
+    _N2O_reduction: '-'
+    _Image: +
+    _Budget: 
+    _Effect_IDs: 000600000106000002060000f8050000f9050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1536
+      _Property: ProductVolume
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1537
+      _Property: ProductVolume
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1538
+      _Property: ProductVolume
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1528
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1529
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 2
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+  - _Action_ID: 226
+    _Name: Reorganize Your Ministeries
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Time for a change. To many bureaucrats are just busy making too
+      many regulations. Let's reduce your administration costs by 5%.
+    _Repetivity: ExecOnce
+    _Cost: 400
+    Initial_Cost: 400
+    _NH3_reduction: 
+    _NOx_reduction: 
+    _N2O_reduction: 
+    _Image: --
+    _Budget: 
+    _Effect_IDs: f3050000f1050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1523
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: -0.1
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 1521
+      _Property: ProductVolume
+      _Game_Object: Administration
+      _ObjectID: 47
+      _Object: 1
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+  - _Action_ID: 231
+    _Name: Introduce Ship Speed Limit
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Better engines in ships do not reduce emissions. Ship speed increases
+      are associated with higher diesel use and emissions.
+    _Repetivity: Rotating
+    _Cost: 50
+    Initial_Cost: 50
+    _NH3_reduction: +
+    _NOx_reduction: ---
+    _N2O_reduction: 
+    _Image: --
+    _Budget: 
+    _Effect_IDs: d50d0000d40d0000d60d0000de0d0000df0d0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3541
+      _Property: Emission_NOx
+      _Game_Object: Wat-Mtonkm
+      _ObjectID: 64
+      _Object: 3
+      _Value: 0.5
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3540
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3542
+      _Property: PricePerUnit
+      _Game_Object: Wat-Mtonkm
+      _ObjectID: 64
+      _Object: 3
+      _Value: 0.95
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3550
+      _Property: ProductVolume
+      _Game_Object: Transport over water (inland)
+      _ObjectID: 27
+      _Object: 1
+      _Value: 0.97
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3551
+      _Property: ProductVolume
+      _Game_Object: Industry diesel
+      _ObjectID: 19
+      _Object: 1
+      _Value: 1.05
+      _Operator: 1
+      _Extent: 1
+  - _Action_ID: 233
+    _Name: Carbon And Nox Storage
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: In order to reach the Paris Agreement targets, CO2 from power plants
+      (25Mton) can be stored underground. Investment in new separation technology
+      is needed to store NOx (12 kton) as well.
+    _Repetivity: ExecOnce
+    _Cost: 2000
+    Initial_Cost: 2000
+    _NH3_reduction: 
+    _NOx_reduction: --
+    _N2O_reduction: 
+    _Image: ++
+    _Budget: 
+    _Effect_IDs: e10d0000e20d0000e30d0000e50d0000fb0d0000fc0d0000fd0d0000e40d0000e70d0000e60d0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3553
+      _Property: Emission_NOx
+      _Game_Object: Me-C-Elec
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.5
+      _Operator: 1
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3554
+      _Property: FacCostBuild
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 100
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3555
+      _Property: FacCostEM
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 200
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3557
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3579
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.03
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3580
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: E-Distribution
+      _ObjectID: 6
+      _Object: 1
+      _Value: 0.02
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3581
+      _Property: PricePerUnit
+      _Game_Object: Me-C-Elec
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.15
+      _Operator: 4
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3556
+      _Property: FuelUsePerUnit
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3559
+      _Property: JobsPerUnit
+      _Game_Object: Coal E-generation
+      _ObjectID: 2
+      _Object: 1
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 0}
+      sectorList: {fileID: 0}
+      activityData: {fileID: 0}
+      actionData: {fileID: 0}
+      _ID: 0
+      _Property: 
+      _Game_Object: 
+      _ObjectID: 0
+      _Object: 0
+      _Value: 0
+      _Operator: 0
+      _Extent: 0
+  - _Action_ID: 234
+    _Name: Enable Sustainable Ship Parking
+    _Belonging_Sector_ID: 3
+    _Belonging_Sector: {fileID: 11400000}
+    _Caption: 
+    _Description: Ships in the harbor needlessly run their engines for power production.
+      Make the use of electricity from the mainland and avoid these emissions. Follow-up
+      implementation from industry is required.
+    _Repetivity: Permanent
+    _Cost: 400
+    Initial_Cost: 400
+    _NH3_reduction: 
+    _NOx_reduction: 
+    _N2O_reduction: 
+    _Image: +
+    _Budget: 
+    _Effect_IDs: d70d0000d80d0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3543
+      _Property: DirectDummyCost
+      _Game_Object: Ship power supply
+      _ObjectID: 232
+      _Object: 4
+      _Value: -400
+      _Operator: 2
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 8ab0ce2e0a287694abaf835b2e6e6772, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: db578fc71308a3d40b42ee058bb1de2f, type: 2}
+      actionData: {fileID: 11400000, guid: 6f5396b16bf1dbf48b4158ae7700f5e2, type: 2}
+      _ID: 3544
+      _Property: Image
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 2
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 1
+  SelectedChoices: []

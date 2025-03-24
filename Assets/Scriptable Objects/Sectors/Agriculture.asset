@@ -1,0 +1,3241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc99831d731cd9c41a85f835d366ff05, type: 3}
+  m_Name: Agriculture
+  m_EditorClassIdentifier: 
+  ID: 1
+  Description: Represent the interests of the agricultural sector
+  controllerAgent: 0
+  Concerns: Increase your production and image while decreasing your emissions
+  Icon: {fileID: 21300000, guid: a379953f699db8744baf52084c1cd354, type: 3}
+  color: {fileID: 11400000, guid: 5229d2fc357ad9c49ab81807124d95f5, type: 2}
+  Budget: 1350.1084
+  Display_Budget: 650.1084
+  DisplayBudgetRecord:
+  - 650.1084
+  Total_Production_Value: 17330.55
+  TotalProductionValueRecord:
+  - 17330.55
+  Image: 10
+  Fertilizer_Input: 1693.44
+  Fertilizer_Output: 140.73398
+  NUE: 0.083105385
+  NUERecord:
+  - 0.083105385
+  N2O_Emissions: 0.08792199
+  N2ORecord:
+  - 0.08792199
+  NH3_Emissions: 112999.99
+  NH3Record:
+  - 112999.99
+  Nox_Emissions: 43300.49
+  NoxRecord:
+  - 43300.49
+  Action_Limit_Per_Turn: 3
+  score: 50
+  prod_score: 0
+  public_health: 14.288034
+  Actions:
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 12
+    _Name: Decrease Livestock Density
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Decrease animal density on farm lands.
+    _Repetivity: Rotating
+    _Cost: 2000
+    _NH3: ----
+    _Nox: 
+    _N2O: ----
+    _Image: ++
+    _Budget: 
+    _Effect_IDs: 8f03000090030000730400002b0500002c050000e3000000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 911
+      _Property: ProductVolume
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 912
+      _Property: ProductVolume
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1139
+      _Property: ProductVolume
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1323
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1324
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 227
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 1
+    _Image_Ref: livestock-intensity
+    _Image_Sprite: {fileID: 21300000, guid: 3dc49176850937849a8191bb84784f81, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 13
+    _Name: Increase Livestock Density
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Increase animal density on farm lands.
+    _Repetivity: Permanent
+    _Cost: 0
+    _NH3: ++++
+    _Nox: 
+    _N2O: ++++
+    _Image: --
+    _Budget: 
+    _Effect_IDs: e8000000e9000000ea000000940300009503000097030000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 232
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: -0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 233
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: -0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 234
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: -0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 916
+      _Property: ProductVolume
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 917
+      _Property: ProductVolume
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 919
+      _Property: ProductVolume
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 4
+    _Image_Ref: livestock-intensity
+    _Image_Sprite: {fileID: 21300000, guid: 3dc49176850937849a8191bb84784f81, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 14
+    _Name: Manure Processing
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Manure processing will affect manure composting and therefore reduce
+      ammonia emissions and nitrate leaching from land application.
+    _Repetivity: ExecOnce
+    _Cost: 5000
+    _NH3: ----
+    _Nox: +
+    _N2O: ----
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 990300009b0300009e030000980300009a0300009d030000f0000000f1000000f20000007b0400007c0400007d040000a40f0000b40f0000b50f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 921
+      _Property: FacCostBuild
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 50
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 923
+      _Property: FacCostBuild
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 150
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 926
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 500
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 920
+      _Property: FacCostEM
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 50
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 922
+      _Property: FacCostEM
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 150
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 925
+      _Property: FacCostEM
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 500
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 240
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 241
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 242
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1147
+      _Property: PricePerUnit
+      _Game_Object: Manure_2
+      _ObjectID: 31
+      _Object: 4
+      _Value: 15
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1148
+      _Property: PricePerUnit
+      _Game_Object: Manure_1
+      _ObjectID: 30
+      _Object: 4
+      _Value: 50
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1149
+      _Property: PricePerUnit
+      _Game_Object: Manure_1
+      _ObjectID: 30
+      _Object: 4
+      _Value: 50
+      _Operator: 3
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4004
+      _Property: Emission_NH3
+      _Game_Object: Manure_2
+      _ObjectID: 31
+      _Object: 4
+      _Value: 0.33
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4020
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 30
+      _Object: 4
+      _Value: -8000
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4021
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 31
+      _Object: 4
+      _Value: -8000
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: fertilizer
+    _Image_Sprite: {fileID: 21300000, guid: e72cb7782b3469e429caad4d5f208eba, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 15
+    _Name: Green Stables (National)
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2028
+    _Importance: 0
+    _Description: Better floor design, cleaning and drainage can reduce stable emissions.
+    _Repetivity: Rotating
+    _Cost: 2800
+    _NH3: ---
+    _Nox: 
+    _N2O: +
+    _Image: 
+    _Budget: 
+    _Effect_IDs: a5030000a6030000a7030000f9000000fa000000fb000000fc000000fd000000fe000000b60f0000b70f0000b80f0000b90f0000ba0f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 933
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 100
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 934
+      _Property: FacCostBuild
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 25
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 935
+      _Property: FacCostBuild
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 15
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 249
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 250
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 251
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 252
+      _Property: JobsPerUnit
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 253
+      _Property: JobsPerUnit
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 254
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4022
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 51
+      _Object: 4
+      _Value: 0.061941948
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4023
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 61
+      _Object: 4
+      _Value: 0.061941948
+      _Operator: 1
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4024
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 11
+      _Object: 4
+      _Value: 0.061941948
+      _Operator: 1
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4025
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 18
+      _Object: 4
+      _Value: 0.061941948
+      _Operator: 1
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4026
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 56
+      _Object: 4
+      _Value: 0.061941948
+      _Operator: 1
+      _Extent: 3
+    _Image_Ref: stables
+    _Image_Sprite: {fileID: 21300000, guid: dc98a320ec3a22c4f835f15e409d520d, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 16
+    _Name: Cover Manure Storage
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Cover manure storage piles to reduce ammonium emissions.
+    _Repetivity: ExecOnce
+    _Cost: 1300
+    _NH3: '-'
+    _Nox: 
+    _N2O: +
+    _Image: 
+    _Budget: 
+    _Effect_IDs: a2030000a3030000a4030000050100000601000007010000b40f0000b50f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 930
+      _Property: FacCostBuild
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 4
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 931
+      _Property: FacCostBuild
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 2
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 932
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 14
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 261
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.04
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 262
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.02
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 263
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.02
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4020
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 30
+      _Object: 4
+      _Value: -8000
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4021
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 31
+      _Object: 4
+      _Value: -8000
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: manure-storage
+    _Image_Sprite: {fileID: 21300000, guid: d8543ab4979a6b7469c9df6e74552c73, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 17
+    _Name: Low Emission Fertilizers
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Apply manure using techniques that inject manure in the soil.
+    _Repetivity: ExecOnce
+    _Cost: 3000
+    _NH3: ----
+    _Nox: +
+    _N2O: ++
+    _Image: ++
+    _Budget: 
+    _Effect_IDs: 78040000790400007a0400000e0100000f010000740400007504000077040000b30f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1144
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 10
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1145
+      _Property: FacCostBuild
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 10
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1146
+      _Property: FacCostBuild
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 10
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 270
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 271
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 1.05
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1140
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 1.05
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1141
+      _Property: JobsPerUnit
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 1.05
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1143
+      _Property: JobsPerUnit
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 1.05
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4019
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 4
+      _Value: -2
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: fertilizer
+    _Image_Sprite: {fileID: 21300000, guid: e72cb7782b3469e429caad4d5f208eba, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 18
+    _Name: Precision Fertilisation
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Apply the optimium amount of manure at the right time and place.
+    _Repetivity: ExecOnce
+    _Cost: 2500
+    _NH3: --
+    _Nox: '-'
+    _N2O: --
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 190100001a0100001b010000b30f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 281
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 1.01
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 282
+      _Property: JobsPerUnit
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 1.01
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 283
+      _Property: JobsPerUnit
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 1.01
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4019
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 3
+      _Object: 4
+      _Value: -2
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: fertilizer
+    _Image_Sprite: {fileID: 21300000, guid: e72cb7782b3469e429caad4d5f208eba, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 19
+    _Name: Optimal Irrigation
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Adjust irrigation to optimize nitrogen uptake by crops.
+    _Repetivity: ExecOnce
+    _Cost: 1400
+    _NH3: '-'
+    _Nox: 
+    _N2O: '-'
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 1e0100001f010000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 286
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 15
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 287
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    _Image_Ref: water
+    _Image_Sprite: {fileID: 21300000, guid: a371570dc03ff4241a066c80d8a33415, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 20
+    _Name: Optimal Drainage
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Improve soil drainage by modified tillage and installation of field
+      tiles.
+    _Repetivity: ExecOnce
+    _Cost: 3300
+    _NH3: '-'
+    _Nox: 
+    _N2O: '-'
+    _Image: 
+    _Budget: 
+    _Effect_IDs: d4030000d5030000db030000dc030000dd030000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 980
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 3
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 981
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 3
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 987
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 4
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 988
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 1
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 989
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 4
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: water
+    _Image_Sprite: {fileID: 21300000, guid: a371570dc03ff4241a066c80d8a33415, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 21
+    _Name: Increase Grazing Time
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Let cattle graze more frequently. Decrease in ammonia emissions
+      per hour of grazing is determined to be 2.61%.
+    _Repetivity: Rotating
+    _Cost: 30
+    _NH3: '-'
+    _Nox: 
+    _N2O: +
+    _Image: --
+    _Budget: 
+    _Effect_IDs: 240100002501000026010000ca0f0000cb0f0000cc0f0000cd0f0000ce0f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 292
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.15
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 293
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.01
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 294
+      _Property: NH3_Emissions
+      _Game_Object: Milk
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.09
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4042
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 51
+      _Object: 4
+      _Value: 0.003893494
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4043
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 61
+      _Object: 4
+      _Value: 0.003893494
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4044
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 18
+      _Object: 4
+      _Value: 0.003893494
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4045
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 11
+      _Object: 4
+      _Value: 0.003893494
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4046
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 56
+      _Object: 4
+      _Value: 0.003893494
+      _Operator: 2
+      _Extent: 3
+    _Image_Ref: livestock-intensity
+    _Image_Sprite: {fileID: 21300000, guid: 3dc49176850937849a8191bb84784f81, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 22
+    _Name: Adjust Animal Feeding
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Use an improved fodder with a lower nitrogen content. (Use of the
+      improved fodder does not reduce animal production.)
+    _Repetivity: ExecOnce
+    _Cost: 720.5
+    _NH3: '-'
+    _Nox: 
+    _N2O: '-'
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 2b0100002c0100002d010000ab030000cf0f0000d00f0000d10f0000d20f0000d30f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 299
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 300
+      _Property: JobsPerUnit
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 1.01
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 301
+      _Property: JobsPerUnit
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 939
+      _Property: JobsPerUnit
+      _Game_Object: Chicken_eggs
+      _ObjectID: 31
+      _Object: 3
+      _Value: 1.01
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4047
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 56
+      _Object: 4
+      _Value: 0.07521522
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4048
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 18
+      _Object: 4
+      _Value: 0.07521522
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4049
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 11
+      _Object: 4
+      _Value: 0.07521522
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4050
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 51
+      _Object: 4
+      _Value: 0.07521522
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4051
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 61
+      _Object: 4
+      _Value: 0.07521522
+      _Operator: 2
+      _Extent: 3
+    _Image_Ref: animal-feed
+    _Image_Sprite: {fileID: 21300000, guid: 7e2af549e6aab8346b15247bc8f71853, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 23
+    _Name: Apply Cover Crops
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Grow a cover crop to reduce nitrogen leaching during autumn and
+      winter.
+    _Repetivity: ExecOnce
+    _Cost: 2500
+    _NH3: 
+    _Nox: 
+    _N2O: --
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 32010000ba030000bb030000bc030000bd030000be030000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 306
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 954
+      _Property: JobsPerUnit
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 955
+      _Property: JobsPerUnit
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 956
+      _Property: JobsPerUnit
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 957
+      _Property: JobsPerUnit
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 958
+      _Property: JobsPerUnit
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    _Image_Ref: cover-crop
+    _Image_Sprite: {fileID: 21300000, guid: 931cd537a9ac00744b8ee9604837b500, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 24
+    _Name: Reduce Fertiliser Use
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Decrease chemical fertiliser use. This strategy will hardly reduce
+      per hectare production as long as there is an over-fertilization!
+    _Repetivity: ExecOnce
+    _Cost: 1400
+    _NH3: --
+    _Nox: '-'
+    _N2O: --
+    _Image: 
+    _Budget: 
+    _Effect_IDs: ac030000ad030000ae030000af030000b0030000b1030000b3030000b4030000b5030000b6030000b7030000b80300007e0400007f04000080040000810400008204000083040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 940
+      _Property: ProductVolume
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 941
+      _Property: ProductVolume
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 942
+      _Property: ProductVolume
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 943
+      _Property: ProductVolume
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 944
+      _Property: ProductVolume
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 945
+      _Property: ProductVolume
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 947
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 948
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 949
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 950
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 951
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 952
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1150
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.01
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1151
+      _Property: JobsPerUnit
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1152
+      _Property: JobsPerUnit
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1153
+      _Property: JobsPerUnit
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1154
+      _Property: JobsPerUnit
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1155
+      _Property: JobsPerUnit
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 0.2
+      _Operator: 2
+      _Extent: 4
+    _Image_Ref: fertilizer
+    _Image_Sprite: {fileID: 21300000, guid: e72cb7782b3469e429caad4d5f208eba, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 25
+    _Name: Lie Fallow (With Cover)
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2028
+    _Importance: 0
+    _Description: 'Convert crop land to fallow using a cover crop. Bonus: You will
+      get a government subsidy!'
+    _Repetivity: ExecOnce
+    _Cost: 1200
+    _NH3: '-'
+    _Nox: '-'
+    _N2O: '-'
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 3a01000063040000640400006504000066040000670400003b010000e5030000e6030000e7030000e8030000c00f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 314
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1123
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 5
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1124
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1125
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1126
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 5
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1127
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 5
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 315
+      _Property: ProductVolume
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 997
+      _Property: ProductVolume
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 998
+      _Property: ProductVolume
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 999
+      _Property: ProductVolume
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1000
+      _Property: ProductVolume
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4032
+      _Property: Budget
+      _Game_Object: Government
+      _ObjectID: 1
+      _Object: 1
+      _Value: 500
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: fallow
+    _Image_Sprite: {fileID: 21300000, guid: f05ffb2adf9dc824a8b720640d2faa76, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 26
+    _Name: Lie Fallow (Without Cover)
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Convert crop land to fallow land (with no cover crop) and receive
+      a government subsidy!
+    _Repetivity: ExecOnce
+    _Cost: 2100
+    _NH3: --
+    _Nox: '-'
+    _N2O: --
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 400100005e0400005f040000600400006104000062040000410100005104000052040000530400005404000055040000560400005704000058040000590400005a040000c00f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 320
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1118
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1119
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1120
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1121
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1122
+      _Property: OtherMaterialAmountPerUnit
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 321
+      _Property: ProductVolume
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1105
+      _Property: ProductVolume
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1106
+      _Property: ProductVolume
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1107
+      _Property: ProductVolume
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1108
+      _Property: ProductVolume
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1109
+      _Property: ProductVolume
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1110
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Other crops
+      _ObjectID: 33
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1111
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Potato Production
+      _ObjectID: 34
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1112
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Wheat_farm
+      _ObjectID: 36
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1113
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Corn_farm
+      _ObjectID: 37
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1114
+      _Property: RawMaterialAmountPerUnit
+      _Game_Object: Beets
+      _ObjectID: 35
+      _Object: 3
+      _Value: 0.95
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4032
+      _Property: Budget
+      _Game_Object: Government
+      _ObjectID: 1
+      _Object: 1
+      _Value: 500
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: fallow
+    _Image_Sprite: {fileID: 21300000, guid: f05ffb2adf9dc824a8b720640d2faa76, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 63
+    _Name: Low NOx Heating
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Install a low NOx agricultural heating system. A NOx reduction
+      of 15% is realized.
+    _Repetivity: ExecOnce
+    _Cost: 750
+    _NH3: 
+    _Nox: '-'
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: c9010000ce010000ca010000cb01000084040000cd010000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 457
+      _Property: ElectricityPerUnitStd
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 462
+      _Property: Emission_NOx
+      _Game_Object: Me-Hort
+      _ObjectID: 44
+      _Object: 4
+      _Value: 0.8
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 458
+      _Property: FacCostBuild
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 8
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 459
+      _Property: FacCostEM
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 12
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1156
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 461
+      _Property: JobsPerUnit
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    _Image_Ref: low-nox-heater
+    _Image_Sprite: {fileID: 21300000, guid: e1e81f061e97cdd4eb215e844e99ea51, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 64
+    _Name: Ultra-Low NOx Heating
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Install a ultra-low NOx agricultural heating system. A NOx reduction
+      of 35% is realized.
+    _Repetivity: ExecOnce
+    _Cost: 1100
+    _NH3: 
+    _Nox: --
+    _N2O: 
+    _Image: 
+    _Budget: 
+    _Effect_IDs: cf010000d4010000d0010000d1010000d201000085040000d3010000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 463
+      _Property: ElectricityPerUnitStd
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 468
+      _Property: Emission_NOx
+      _Game_Object: Me-Hort
+      _ObjectID: 44
+      _Object: 4
+      _Value: 0.6
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 464
+      _Property: FacCostBuild
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 8
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 465
+      _Property: FacCostEM
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 12
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 466
+      _Property: FuelUsePerUnit
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1157
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 467
+      _Property: JobsPerUnit
+      _Game_Object: Horticulture
+      _ObjectID: 39
+      _Object: 3
+      _Value: 1.02
+      _Operator: 2
+      _Extent: 2
+    _Image_Ref: low-nox-heater
+    _Image_Sprite: {fileID: 21300000, guid: e1e81f061e97cdd4eb215e844e99ea51, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 65
+    _Name: Switch To Organic Dairy
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Dairy farmers adopt organic techniques. This strategy increases
+      agricultural jobs and changes emissions. (Dairy products will be more expensive!)
+    _Repetivity: ExecOnce
+    _Cost: 750
+    _NH3: +
+    _Nox: 
+    _N2O: '-'
+    _Image: ++
+    _Budget: 
+    _Effect_IDs: eb020000ec0200009b050000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 747
+      _Property: ProductVolume
+      _Game_Object: Bio-farming
+      _ObjectID: 38
+      _Object: 3
+      _Value: 100
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 748
+      _Property: ProductVolume
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: -300
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1435
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.2
+      _Operator: 1
+      _Extent: 1
+    _Image_Ref: organic
+    _Image_Sprite: {fileID: 21300000, guid: 102953825abb1f24ab21cde1456cee19, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 66
+    _Name: Switch To Organic Pork
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2028
+    _Importance: 0
+    _Description: Pig farmers adopt organic techniques. This increases agricultural
+      jobs and reduces emissions. (Pork products will be more expensive!)
+    _Repetivity: ExecOnce
+    _Cost: 850
+    _NH3: +
+    _Nox: 
+    _N2O: '-'
+    _Image: ++
+    _Budget: 
+    _Effect_IDs: ed020000ee020000ef020000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 749
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.2
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 750
+      _Property: ProductVolume
+      _Game_Object: Bio-farming
+      _ObjectID: 38
+      _Object: 3
+      _Value: 50
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 751
+      _Property: ProductVolume
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: -100
+      _Operator: 1
+      _Extent: 2
+    _Image_Ref: organic
+    _Image_Sprite: {fileID: 21300000, guid: 102953825abb1f24ab21cde1456cee19, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 68
+    _Name: Increase Pork Production
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Increase pork production. Good for the economy but will increase
+      emissions. (Maximum allowed increase is 10%.)
+    _Repetivity: Rotating
+    _Cost: 300
+    _NH3: ++
+    _Nox: +
+    _N2O: +
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 0103000002030000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 769
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: -0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 770
+      _Property: ProductVolume
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 1.1
+      _Operator: 2
+      _Extent: 2
+    _Image_Ref: pigs
+    _Image_Sprite: {fileID: 21300000, guid: 422834451ea8f5a408638b0888c02750, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 69
+    _Name: Increase Beef Production
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Increase cattle production. Good for the economy but will increase
+      emissions. (Maximum allowed increase is 10%.)
+    _Repetivity: ExecOnce
+    _Cost: 250
+    _NH3: ++
+    _Nox: +
+    _N2O: +
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 0303000004030000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 771
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: -0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 772
+      _Property: ProductVolume
+      _Game_Object: Veal_Farms
+      _ObjectID: 29
+      _Object: 3
+      _Value: 1.1
+      _Operator: 2
+      _Extent: 2
+    _Image_Ref: livestock-intensity
+    _Image_Sprite: {fileID: 21300000, guid: 3dc49176850937849a8191bb84784f81, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 70
+    _Name: Emigrate (Dairy)
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Reduce local dairy production. (Maximum allowed decrease is 10%.)
+    _Repetivity: ExecOnce
+    _Cost: 2000
+    _NH3: --
+    _Nox: 
+    _N2O: --
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 060300008904000087040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 774
+      _Property: ProductVolume
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1161
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: -0.02
+      _Operator: 1
+      _Extent: 1
+    _Image_Ref: emigrate
+    _Image_Sprite: {fileID: 21300000, guid: 2819de0e4f4fd7c4696b9cc7cdfa4452, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 71
+    _Name: Emigrate (Pork)
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2028
+    _Importance: 0
+    _Description: Reduce local pork production. Farmers emigrate to USA, Australia
+      or New Zealand.  (Maximum allowed emigration is 10%.)
+    _Repetivity: ExecOnce
+    _Cost: 650
+    _NH3: --
+    _Nox: 
+    _N2O: --
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 080300000703000086040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 776
+      _Property: ProductVolume
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 775
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: -0.02
+      _Operator: 1
+      _Extent: 1
+    _Image_Ref: emigrate
+    _Image_Sprite: {fileID: 21300000, guid: 2819de0e4f4fd7c4696b9cc7cdfa4452, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 188
+    _Name: Local Manure Gassification
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Create your own biogas using the available manure. This reduces
+      NH3 and N2O emissions and provides you with electricity.
+    _Repetivity: Rotating
+    _Cost: 4000
+    _NH3: ---
+    _Nox: 
+    _N2O: --
+    _Image: 
+    _Budget: 
+    _Effect_IDs: 1c0600001d0600001b0600001e0600001f060000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1564
+      _Property: ElectricityPerUnitStd
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1565
+      _Property: ElectricityPerUnitStd
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 0.05
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1563
+      _Property: PricePerUnit
+      _Game_Object: Manure_1
+      _ObjectID: 30
+      _Object: 4
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1566
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1567
+      _Property: FacCostBuild
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 5
+      _Operator: 1
+      _Extent: 1
+    _Image_Ref: manure
+    _Image_Sprite: {fileID: 21300000, guid: f327b85135201bd40b4476d59e7101d6, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 201
+    _Name: Look For Investors
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Investors will boost the traditional agricultural activities. This
+      will boost your budget by 5000 next turn but also increase your emissions
+    _Repetivity: Rotating
+    _Cost: -50
+    _NH3: ++
+    _Nox: 
+    _N2O: ++
+    _Image: ---
+    _Budget: 
+    _Effect_IDs: 100600001106000012060000aa0f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1552
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: -0.3
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1553
+      _Property: ProductVolume
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1554
+      _Property: ProductVolume
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 4
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4010
+      _Property: Budget
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 5000
+      _Operator: 1
+      _Extent: 1
+    _Image_Ref: tax
+    _Image_Sprite: {fileID: 21300000, guid: 7eb7af6c393020f4ab68968a629ba116, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 203
+    _Name: Green Stables (South East)
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2025
+    _Importance: 0
+    _Description: Better floor design, cleaning and drainage can reduce stable emissions.
+      Employ this strategy in the south east part of the country only.
+    _Repetivity: ExecOnce
+    _Cost: 4000
+    _NH3: --
+    _Nox: 
+    _N2O: '-'
+    _Image: 
+    _Budget: 
+    _Effect_IDs: d9050000da050000db050000d0050000d3050000d4050000d5050000d6050000d7050000bb0f0000bc0f0000bd0f0000be0f0000bf0f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1497
+      _Property: FacCostBuild
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 10
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1498
+      _Property: FacCostBuild
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 2
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1499
+      _Property: FacCostBuild
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 2
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1488
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.01
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1491
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.03
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1492
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.03
+      _Operator: 1
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1493
+      _Property: JobsPerUnit
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 1.01
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1494
+      _Property: JobsPerUnit
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 1.01
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1495
+      _Property: JobsPerUnit
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 1.01
+      _Operator: 2
+      _Extent: 2
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4027
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 56
+      _Object: 4
+      _Value: 0.04955356
+      _Operator: 1
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4028
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 11
+      _Object: 4
+      _Value: 0.04955356
+      _Operator: 1
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4029
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 51
+      _Object: 4
+      _Value: 0.04955356
+      _Operator: 1
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4030
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 61
+      _Object: 4
+      _Value: 0.04955356
+      _Operator: 1
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4031
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 18
+      _Object: 4
+      _Value: 0.04955356
+      _Operator: 1
+      _Extent: 3
+    _Image_Ref: stables
+    _Image_Sprite: {fileID: 21300000, guid: dc98a320ec3a22c4f835f15e409d520d, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 215
+    _Name: Decrease Livestock Intensity
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2022
+    _Importance: 0
+    _Description: Decrease intensive animal breeding.
+    _Repetivity: Rotating
+    _Cost: 3000
+    _NH3: ----
+    _Nox: 
+    _N2O: --
+    _Image: ++
+    _Budget: 
+    _Effect_IDs: 21050000240500002a05000023050000260500002d050000700400007104000072040000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1313
+      _Property: ProductVolume
+      _Game_Object: Pig_Farming
+      _ObjectID: 32
+      _Object: 3
+      _Value: 0.9
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1316
+      _Property: ProductVolume
+      _Game_Object: Chicken_Farms
+      _ObjectID: 30
+      _Object: 3
+      _Value: 0.9
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1322
+      _Property: ProductVolume
+      _Game_Object: Dairy_Farms
+      _ObjectID: 28
+      _Object: 3
+      _Value: 0.1
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1315
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1318
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1325
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.1
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1136
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1137
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 1
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 1138
+      _Property: Image
+      _Game_Object: Agriculture
+      _ObjectID: 1
+      _Object: 1
+      _Value: 0.05
+      _Operator: 1
+      _Extent: 1
+    _Image_Ref: livestock-intensity
+    _Image_Sprite: {fileID: 21300000, guid: 3dc49176850937849a8191bb84784f81, type: 3}
+  - _Cooldown: 3
+    _ExecutedTurn: 0
+    _Action_ID: 245
+    _Name: Dilute Manure
+    _Belonging_Sector_ID: 1
+    _Belonging_Sector: {fileID: 11400000}
+    _Priority: 2024
+    _Importance: 1
+    _Description: You can cut your emissions during manure application by diluting
+      the manure. Ammonia release from diluted manure is 30% less than undiluted
+      manure.
+    _Repetivity: ExecOnce
+    _Cost: 1050
+    _NH3: --
+    _Nox: 
+    _N2O: 
+    _Image: +
+    _Budget: 
+    _Effect_IDs: c80f0000c90f0000
+    _Effects:
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4040
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 30
+      _Object: 3
+      _Value: 0.012720221
+      _Operator: 2
+      _Extent: 3
+    - productData: {fileID: 11400000, guid: 3265e8db4d23d4446b04f078aa281ba8, type: 2}
+      sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+      activityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+      actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+      depositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+      _ID: 4041
+      _Property: Emission_NH3
+      _Game_Object: Government
+      _ObjectID: 31
+      _Object: 4
+      _Value: 0.012720221
+      _Operator: 2
+      _Extent: 3
+    _Image_Ref: manure
+    _Image_Sprite: {fileID: 21300000, guid: f327b85135201bd40b4476d59e7101d6, type: 3}
+  SelectedChoices: []

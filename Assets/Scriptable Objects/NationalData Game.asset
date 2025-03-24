@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7befbde4775efd428e98de46046d774, type: 3}
+  m_Name: NationalData Game
+  m_EditorClassIdentifier: 
+  sectorList: {fileID: 11400000, guid: 5a48df0943f0b714d88e8f8aec2e946c, type: 2}
+  ActivityData: {fileID: 11400000, guid: e94e017ef7412b141adadd7e595a8034, type: 2}
+  DepositionData: {fileID: 11400000, guid: aaeadbad16dfeed4eba79983d350deda, type: 2}
+  Turn: {fileID: 11400000, guid: 711f004c949bad549bf03b28fefc3376, type: 2}
+  actionData: {fileID: 11400000, guid: 197f80d0da9753c4499ad79b5412b66b, type: 2}
+  _NationalItem:
+    _Population: 17658066
+    _Population_Growth_Rate: 0.06
+    _GDP: 1.1437483e+12
+    _Total_Value: 705345.5
+    Total_Value_Record:
+    - 713706.8
+    - 730176.4
+    - 732980.8
+    - 729476.8
+    - 730737.6
+    - 735070.6
+    - 732551.56
+    - 733043.25
+    _GDP_Per_Capita: 0
+    GDP_Per_Capita_Record: []
+    _Unemployment: 95.15
+    _Economic_Factor: 14.01025
+    _Health_Factor: 25.089958
+    _Environment_Factor: 20.481081
+    _Happiness: 0
+    Happiness_Record: []
+    _Happiness_Adjuster: 0
+    _National_N2O_Emissions: 377013.6
+    _National_NH3_Emissions: 103178.72
+    _National_Nox_Emissions: 4025768.2
+    _National_Total_Deposition: 4146829.8
+    _Mean_Nox_Deposition: 1460.5057
+    _Mean_NH3_Deposition: 785.18115
+    _Mean_N2000_Nox_Deposition: 1398.3679
+    _Mean_N2000_NH3_Deposition: 337.61243
+    _N_Imports: 0
+    _N_Exports: 0
+    _N2000_Below_Critical: 0

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bd8e452a4eb20458d482359d379642, type: 3}
+  m_Name: N2000 Above
+  m_EditorClassIdentifier: 
+  <Value>k__BackingField: {r: 0.7169812, g: 0.056817323, b: 0.10944843, a: 1}
+  OnValueChange: {fileID: 0}

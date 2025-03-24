@@ -1,0 +1,129 @@
+﻿{
+    "configs": {
+        "field_row": 1,
+        "type_row": 2,
+        "data_from_row": 3
+    },
+    "excels": [
+        {
+            "excel_name": "Excels/ProductData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Sciptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": true
+        },
+        {
+            "excel_name": "Excels/ActivityData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Sciptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": false,
+            "generate_tostring_method": true
+        },
+        {
+            "excel_name": "Excels/ActionData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Scriptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": false
+        },
+        {
+            "excel_name": "Excels/EffectData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Scriptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": false
+        },
+        {
+            "excel_name": "Excels/NationalData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Sciptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": true
+        },
+        {
+            "excel_name": "Excels/AIData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Scriptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": true
+        },
+        {
+            "excel_name": "Excels/DepositionData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Scriptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": false
+        },
+        {
+            "excel_name": "Excels/StampNH3Data.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Scriptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": false
+        },
+        {
+            "excel_name": "Excels/StampNOxHighData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Scriptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": false
+        },
+        {
+            "excel_name": "Excels/StampNOxLowData.xlsx",
+            "script_directory": "Assets/Scripts/Scriptable Objects",
+            "asset_directory": "Assets/Scriptable Objects",
+            "name_space": "",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": false,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": false
+        }
+    ]
+}
